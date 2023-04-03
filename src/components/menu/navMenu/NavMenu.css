@@ -1,0 +1,19 @@
+.navMenu {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #dbd9d7;
+}
+.navMenu ul{
+    margin-left: 130px;
+}
+.navMenu ul li:nth-child(1) a{
+border-bottom: 1px solid;
+padding-bottom: 5px;
+}
+.navMenu ul li a {
+    color: rgba(0, 0, 0, .87);
+    display: block;
+    font-size: 15px;
+    margin-right: 20px;
+    padding: 20px 0;
+    text-decoration: none;
+}

@@ -1,0 +1,15 @@
+.menuItems{
+    padding-top: 20px;
+    margin-left: 130px;
+}
+.menuItems ul span{
+    font-size: 18px;
+    font-weight: 600;
+}
+.menuItems ul li{
+    padding: 10px 0;
+}
+.menuItems ul li a{
+    color: rgba(0,0,0,.58);
+    font-size: 15px;
+}

@@ -1,0 +1,35 @@
+.footerEnd a{
+    color: currentColor;
+}
+.footerEnd circle{
+    transform: scale(.4);
+    transition: all .2s ease-out;
+    transform-origin: center;
+    transform: scale(.4);
+    opacity: .1;
+}
+.footerEnd a:hover circle{
+    transform: scale(1);
+    fill: currentColor;
+}
+.ul {
+    width: 100%;
+}
+
+.ul li{
+    display: flex;
+    align-items: center;
+}
+.ul li span{
+    padding: 0 10px;
+}
+.ul li a{
+ font-size: 15px;
+}
+.ul li a:hover{
+text-decoration: underline;
+}
+.footerEnd p{
+    color: rgba(0,0,0,.58)!important;
+    padding: 10px 0;
+}
