@@ -1,0 +1,43 @@
+.rewardsGetting {
+    text-align: center;
+    padding: 70px 0;
+}
+.rewardsGetting h1{
+    font-size: 28px;
+    font-weight: 600;
+    padding: 30px 0;
+
+}
+.rewardsGettingItems {
+    display: flex;
+    justify-content: center;
+}
+
+.rewardsGettingItem {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 28%;
+    padding: 20px;
+}
+.rewardsGettingItem h2{
+    font-size: 18px;
+    font-weight: 600;
+    color: #212121;
+    padding: 25px 0;
+}
+.rewardsGettingItem p{
+    color: #000000DE;
+    line-height: 1.5;
+}
+.rewardsGettingItemImg {
+    width: 48px;
+    height: 48px;
+}
+.rewardsGettingItem a{
+    text-decoration: underline;
+    color: #006241;
+}
+.rewardsGettingItem a:hover{
+    text-decoration: none;
+}

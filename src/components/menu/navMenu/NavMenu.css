@@ -5,10 +5,7 @@
 .navMenu ul{
     margin-left: 130px;
 }
-.navMenu ul li:nth-child(1) a{
-border-bottom: 1px solid;
-padding-bottom: 5px;
-}
+
 .navMenu ul li a {
     color: rgba(0, 0, 0, .87);
     display: block;
@@ -16,4 +13,8 @@ padding-bottom: 5px;
     margin-right: 20px;
     padding: 20px 0;
     text-decoration: none;
+}
+.navMenu ul li a.active {
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
 }

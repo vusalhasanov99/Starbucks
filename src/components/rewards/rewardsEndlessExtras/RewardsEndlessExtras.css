@@ -1,0 +1,39 @@
+.rewardsEndlessExtras{
+    text-align: center;
+    padding: 60px 0;
+}
+.rewardsEndlessExtras h2{
+    color: #212121;
+    padding: 20px 0;
+    font-weight: 600;
+    font-size: 26px;
+}
+.rewardsEndlessExtras h3{
+    color: #1F2020;
+    font-size: 20px;
+    padding: 30px 0;
+    font-weight: 600;
+}
+.rewardsEndlessExtras > p{
+    width: 634px;
+    color: #1F2020;
+    margin: auto;
+    padding-bottom: 48px;
+}
+.rewardsEndlessExtrasItems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rewardsEndlessExtrasItem{
+    width: 26.2%;
+    margin: 24px;
+}
+.rewardsEndlessExtrasItemImg{
+    width: 32%;
+    margin: auto;
+}
+.rewardsEndlessExtrasItemText a{
+    color: #006241;
+    text-decoration: underline;
+}

@@ -1,0 +1,37 @@
+.favoriteProducts {
+    padding-left: 130px;
+    padding-top: 40px;
+    width: 325px;
+}
+
+.favoriteProducts h1 {
+    font-size: 24px;
+    width: 325px;
+    color: rgba(0, 0, 0, .87);
+}
+.favoriteProducts h2 {
+    color: rgba(0, 0, 0, .87);
+    width: 314px;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+.favoriteProducts p {
+    color: #6B6B6B;
+    width: 314px;
+    font-size: 19px;
+    line-height: 1.5;
+    padding: 20px 0;
+}
+.favoriteProductsImg {
+    width: 225px;
+}
+.favoriteProductsImg img {
+    width: 100%;
+}
+.previosOrdersBtns {
+    width: 314px;
+}
+.previosOrdersBtns button {
+    font-size: 16.5px;
+    margin-right: 20px;
+}

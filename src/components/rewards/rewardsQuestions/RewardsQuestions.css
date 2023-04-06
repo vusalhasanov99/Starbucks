@@ -1,0 +1,26 @@
+.rewardsQuestions {
+    width: 65%;
+    margin: auto;
+    padding: 50px 0;
+}
+.rewardsQuestions p{
+width: 70%;
+}
+.rewardsQuestions h1 {
+    color: #212121;
+    font-weight: 600;
+    font-size: 28px;
+    padding:25px 0;
+
+}
+.rewardsQuestions p svg{
+    margin-bottom: -6px;
+}
+.rewardsQuestions a{
+    color: #006241;
+    text-decoration: underline;
+}
+    
+.rewardsQuestions a:hover{
+text-decoration: none;
+}

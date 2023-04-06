@@ -1,17 +1,14 @@
 import React from 'react'
-import { Outlet } from 'react-router-dom'
+import { Outlet, useLocation } from 'react-router-dom'
 import NavMenu from './navMenu/NavMenu'
 import MenuItems from './menuItems/MenuItems'
-import AllProducts from './allProducts/AllProducts'
-
 function Menu() {
+  const location = useLocation()
   return (
     <div>
-      <NavMenu />
+      {location.pathname !== "/menu/featured" && <NavMenu />}
       <div className="d-flex">
-        <MenuItems />
-       <Outlet/>
-
+        <Outlet />
       </div>
     </div>
   )

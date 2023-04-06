@@ -1,0 +1,52 @@
+.rewardsCash{
+    background-color: #F2F0EB;
+    padding: 40px 0;
+
+}
+.rewardsCash >h1,.rewardsCash > p{
+text-align: center;
+    width: 46%;
+    margin: auto;
+}
+.rewardsCash >h1{
+    font-size: 28px;
+    font-weight: 600;
+}
+.rewardsCash > p{
+    color: rgba(0,0,0,.87);
+    padding: 20px 0;
+}
+.rewardsCashItem:nth-child(1){
+    border-bottom: 1px solid #D9D8D3;
+}
+.rewardsCashItem{
+    display: flex;
+    gap:50px;
+    padding: 20px 0;
+}
+.rewardsCashItemApp{
+    display: flex;
+    width: 31%;
+}
+.rewardsCashItemUsd h1{
+color: #000000DE;
+font-size: 24px;
+font-weight: 600;
+}
+.rewardsCashItemApp img{
+    width: 110px;
+}
+.rewardsCashItemApp div{
+    padding: 0 10px;
+
+}
+.rewardsCashItemApp h1{
+color: #000000DE;
+font-size: 18px;
+font-weight: 600;
+padding-bottom: 10px;
+}
+.rewardsCashItemApp p{
+    color: #1F1F1E;
+    line-height: 1.5;
+}

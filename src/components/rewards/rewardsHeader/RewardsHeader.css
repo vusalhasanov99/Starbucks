@@ -1,0 +1,14 @@
+.rewardsHeader{
+    background-color: #1e3932;
+}
+.rewardsHeader h1{
+    color: white;
+    font-size: 14.5px;
+    padding: 16px 130px;
+    letter-spacing: 1px;
+}
+.headerFixed{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}

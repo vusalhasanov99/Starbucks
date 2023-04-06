@@ -5,23 +5,30 @@ import Menu from './components/menu/Menu'
 import Main from './components/main/Main'
 import Food from './components/menu/allProducts/Food'
 import AllProducts from './components/menu/allProducts/AllProducts'
-import Feautured from './components/featured/Feautured'
+import Feautured from './components/menu/featured/Feautured'
+import PreviousOrders from './components/menu/previousOrders/PreviousOrders'
+import FavoriteProducts from './components/menu/favoriteProducts/FavoriteProducts'
+import Rewards from './components/rewards/Rewards'
 
 function Routing() {
   return (
-    <div>
-      <Routes>
-        <Route path='/' element={<MainLayout />}>
-          <Route index element={<Main />} />
-          <Route path='menu' element={<Menu />} >
-            <Route index element={<AllProducts />} />
-            <Route path='drinks/oleato' element={<Food />} />
-          </Route>
-          <Route path='/menu/featured' element={<Feautured />} />
+    <Routes>
+      <Route path='/' element={<MainLayout />}>
+        <Route index element={<Main />} />
+        <Route path='menu' element={<Menu />} >
+          <Route index element={<AllProducts />} />
+          <Route path='featured' element={<Feautured />} />
+          <Route path='previous' element={<PreviousOrders />} />
+          <Route path='favorites' element={<FavoriteProducts />} />
+          <Route path='drinks/oleato' element={<Food />} />
+        </Route>
+
+        <Route path='rewards' element={<Rewards />} >
 
         </Route>
-      </Routes>
-    </div>
+
+      </Route>
+    </Routes>
   )
 }
 

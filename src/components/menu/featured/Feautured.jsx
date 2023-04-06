@@ -1,10 +1,11 @@
 import React from 'react'
 import './Feautured.css'
 import { useSelector } from 'react-redux';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Feautured() {
     const { products } = useSelector((store) => store.product);
+
     return (
         <div className='feautured'>
             <strong>Cue spring mood</strong>
@@ -16,7 +17,7 @@ function Feautured() {
                     <div className="productContent">
                         <span>{product.title}</span>
                         <p>{product.text}</p>
-                        <Link><button>Order now</button></Link>
+                        <NavLink><button>Order now</button></NavLink>
                     </div>
                 </div>
                 )}

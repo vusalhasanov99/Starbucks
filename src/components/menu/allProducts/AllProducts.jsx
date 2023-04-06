@@ -4,18 +4,21 @@ import Food from './Food'
 import AtHomeCoffee from './AtHomeCoffee'
 import Merchandise from './Merchandise'
 import GiftCards from './GiftCards'
-import { Outlet } from 'react-router-dom'
+import MenuItems from '../menuItems/MenuItems'
 
 function AllProducts() {
 
   return (
-    <div>
-      <Drinks/>
-      <Food/>
-      <AtHomeCoffee/>
-      <Merchandise/>
-      <GiftCards/>
-    </div>
+    <>
+      <MenuItems />
+      <div>
+        <Drinks />
+        <Food />
+        <AtHomeCoffee />
+        <Merchandise />
+        <GiftCards />
+      </div>
+    </>
   )
 }
 

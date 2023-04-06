@@ -11,5 +11,5 @@
   margin:auto;
 }
 .d-flex{
-  display: flex;
+  display: flex !important;
 }

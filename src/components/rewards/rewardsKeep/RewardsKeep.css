@@ -1,0 +1,49 @@
+.rewardsKeep {
+    background: url("https://www.starbucks.com/app-assets/a0c12e777b1ed98eae96e6245c7b44ab.png")center/cover;
+    padding: 30px;
+}
+
+.rewardsKeepContent {
+    display: flex;
+    background-color: #D4E9E2;
+}
+
+.rewardsKeepContent>div {
+    padding: 40px;
+}
+
+.rewardsKeepContentItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.rewardsKeepContentItem h1 {
+    color: rgba(0, 0, 0, .87);
+    font-weight: 600;
+    font-size: 28px;
+}
+.rewardsKeepContentItem p{
+    color: #1B1E1D;
+    width: 75%;
+    padding: 10px 0;
+}
+.rewardsKeepContentItem img{
+    width: 25%;
+    padding-top: 20px;
+}
+.rewardsKeepContentItem a{
+    color: #006241;
+    text-decoration: underline;
+}
+.rewardsKeepContentItem button{
+    background-color: #158159;
+    color: white;
+    font-size: 16.5px;
+    border: 0;
+}
+.rewardsKeepContentItem button:hover{
+    background-color: hwb(158 8% 49% / 0.938);
+}

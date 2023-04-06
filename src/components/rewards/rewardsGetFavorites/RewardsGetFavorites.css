@@ -1,0 +1,60 @@
+.rewardsGetFavorites {
+    text-align: center;
+    background-color: #F1F8F5;
+}
+
+.rewardsGetFavorites h2 {
+    color: #1F2020;
+    font-size: 26px;
+    padding: 40px 0;
+    font-weight: 600;
+}
+
+.rewardsGetFavorites .btns {
+    height: 55px;
+}
+
+.rewardsGetFavorites button {
+    border: 0;
+    font-size: 24px;
+    color: #1F2020;
+    border-radius: 0;
+    padding-bottom: 15px;
+}
+
+.rewardsGetFavorites button span {
+    color: #cba258;
+    font-size: 15px;
+}
+
+.rewardsGetFavoritesItems {
+    background-color: #D4E9E2;
+}
+
+.rewardsGetFavoritesItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    gap: 60px;
+    display: none;
+}
+
+.rewardsGetFavoritesItem h2 {
+    color: #000000DE;
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+.rewardsGetFavoritesItem p {
+    color: #000000BE;
+
+}
+
+.rewardsGetFavoritesItem div {
+    width: 27%;
+}
+
+.borderGreen {
+    border-bottom: 5px solid green !important;
+}

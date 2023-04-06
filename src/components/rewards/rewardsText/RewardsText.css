@@ -1,0 +1,35 @@
+.rewardsTextBg{
+    background-color:#F9F9F9 ;
+    padding: 40px 0;
+}
+.rewardsTextItems{
+    display: flex;
+    gap: 30px;
+}
+.rewardsText p{
+    color: rgba(0,0,0,.87);
+    font-size: 14.5px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+.rewardsText h1{
+    color: rgba(0,0,0,.58);
+    font-size: 16px;
+    line-height: 2;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.rewardsText a{
+    color: #006241;
+    text-decoration: underline;
+}
+    
+.rewardsText a:hover{
+text-decoration: none;
+}
+.rewardsTextItem >div{
+    height: 65%;
+}
+.rewardsText svg{
+    margin-bottom: -6px;
+}
