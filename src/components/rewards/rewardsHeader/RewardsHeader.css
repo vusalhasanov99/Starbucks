@@ -12,3 +12,7 @@
     width: 100%;
     top: 0;
 }
+.rewardsHeader{
+    position: sticky;
+    top: 0;
+}

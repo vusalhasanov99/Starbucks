@@ -1,0 +1,14 @@
+.giftSupport{
+    background-color: #EDEBE9;
+    padding-left: 130px;
+}
+.giftSupport h1{
+    color: rgba(0,0,0,.87);
+    font-size: 16px;
+    letter-spacing:2px;
+    padding: 30px 0px;
+}
+.giftSupport button{
+ margin: 30px 20px 30px 0;
+ font-size: 16px;
+}

@@ -1,0 +1,28 @@
+.giftBulk{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 40px 0 40px 130px ;
+    background-color: #f9f9f9;
+}
+.giftBulk .img{
+    width: 55%;
+}
+.giftBulk .text {
+    padding: 10px;
+}
+.giftBulk .text h1{
+    font-size: 24px;
+    font-weight: 500;
+}
+.giftBulk .text p{
+    color: rgba(0,0,0,.58);
+    width: 45%;
+    padding: 20px 0;
+}
+.giftBulk button{
+    font-size: 16px;
+}
+.giftBulk button:hover{
+   background-color: rgba(0,0,0,.1);;
+}

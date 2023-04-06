@@ -9,6 +9,7 @@ import Feautured from './components/menu/featured/Feautured'
 import PreviousOrders from './components/menu/previousOrders/PreviousOrders'
 import FavoriteProducts from './components/menu/favoriteProducts/FavoriteProducts'
 import Rewards from './components/rewards/Rewards'
+import GiftCards from './components/giftCards/GiftCards'
 
 function Routing() {
   return (
@@ -26,6 +27,7 @@ function Routing() {
         <Route path='rewards' element={<Rewards />} >
 
         </Route>
+        <Route path='gift' element={<GiftCards />} />
 
       </Route>
     </Routes>
