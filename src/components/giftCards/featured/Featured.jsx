@@ -1,7 +1,7 @@
 import React from 'react'
 import './Featured.css'
-import FeaturedSlider from './FeaturedSlider';
 import { useSelector } from 'react-redux';
+import "react-multi-carousel/lib/styles.css";
 import { nanoid } from 'nanoid';
 import Carousel from 'react-multi-carousel';
 import GotAGiftCard from '../gotAGiftCard/GotAGiftCard';
@@ -42,7 +42,6 @@ function Featured() {
                                     <img src={item} alt="" />
                                 </div>)}
                         </Carousel>
-
                     </div>)}
                 <GotAGiftCard />
                 {data.slice(1).map(item =>

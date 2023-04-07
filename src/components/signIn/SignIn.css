@@ -1,0 +1,139 @@
+.signIn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.signIn h1 {
+    padding: 30px 0;
+    color: rgba(0,0,0,.87);
+    font-size: 28px;
+}
+
+.sign {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .07), 0 4px 5px rgba(0, 0, 0, .06), 0 1px 10px rgba(0, 0, 0, .1);
+    padding: 30px;
+    border-radius: 10px;
+    width: 37%;
+}
+.sign >p{
+    color: rgba(0,0,0,.87);
+    padding: 10px 0;
+}
+.inp{
+    border-radius: 10px;
+    position: relative;
+    margin: 10px 0;
+}
+.inputIn{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    z-index: -1;
+}
+.inputOut{
+    position: absolute;
+    top: -10px;
+    left: 5%;
+    background-color: white;
+}
+.inp input{
+    outline: 0;
+    padding: 20px ;
+    width: 100%;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.details{
+    display: flex;
+    margin-top: 60px;
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.checkbox label{
+    cursor: pointer;
+
+}
+.details button{
+border: 0;
+padding: 0;
+font-size: 17px;
+font-weight: 800 !important;
+text-decoration: underline;
+color: #006241;;
+}
+.details input{
+width: 25px;
+height: 25px;
+padding: 100px;
+accent-color:#006241;
+}
+.forgot button{
+    display: block;
+    border: 0;
+    padding: 0;
+    font-size: 17px;
+    font-weight: 700 !important;
+    text-decoration: underline;
+    color: #006241;
+    margin: 10px 0;
+}
+.signInBtn{
+ display: flex;
+ justify-content: end;
+}
+.signInBtn button{
+   padding: 18px 24px;
+   font-size: 20px;
+   color: white;
+   background-color: #00754a;
+}
+.inp .show{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+}
+.inp .flex-shrink-none{
+    color: #d62b1f;
+}
+
+.sign .detail{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .07), 0 4px 5px rgba(0, 0, 0, .06), 0 1px 10px rgba(0, 0, 0, .1);
+    border-radius: 20px;
+    padding: 15px 30px 25px 20px;
+    line-height: 1.5;
+    color: rgba(0,0,0,.87);
+    position: absolute;
+    left: 250px;
+    top: 280px;
+    background-color: white;
+}
+.sign .detail p{
+    width: 400px;
+}
+.detail div::before{
+    border-color:  red transparent;
+    border-style: solid;
+    border-width: 25px 25px 0;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 100%;
+    right: 20px;
+    width: 0;
+}
+.gotBtn{
+text-align: right;
+}
+.gotBtn button{
+    text-decoration: none;
+    font-weight: 600 !important;
+    padding-top: 40px;
+}

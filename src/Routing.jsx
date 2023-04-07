@@ -10,6 +10,7 @@ import PreviousOrders from './components/menu/previousOrders/PreviousOrders'
 import FavoriteProducts from './components/menu/favoriteProducts/FavoriteProducts'
 import Rewards from './components/rewards/Rewards'
 import GiftCards from './components/giftCards/GiftCards'
+import SignIn from './components/signIn/SignIn'
 
 function Routing() {
   return (
@@ -28,6 +29,7 @@ function Routing() {
 
         </Route>
         <Route path='gift' element={<GiftCards />} />
+        <Route path='account/signin' element={<SignIn />} />
 
       </Route>
     </Routes>
