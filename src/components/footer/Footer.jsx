@@ -5,10 +5,12 @@ import SocialImpact from './footerItems/SocialImpact'
 import ForBusinessPartners from './footerItems/ForBusinessPartners'
 import OrderAndPickup from './footerItems/OrderAndPickup'
 import FooterEnd from './footerEnd/FooterEnd'
+import { useLocation } from 'react-router-dom'
 
 function Footer() {
+    const location = useLocation()
     return (
-        <footer>
+        <footer style={{display:location.pathname == "/findstore"?"none":"" }} >
             <div className="container">
                 <div className="footerItems d-flex">
                     <About />

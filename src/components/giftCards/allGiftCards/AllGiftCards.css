@@ -1,0 +1,50 @@
+.gotAGiftCard{
+    margin-bottom: 20px;
+}
+.giftCards .allGiftCards .allGiftCardsHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.giftCards .allGiftCards .allGiftCardsHeader h1 {
+    color: #000000DE;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 130px;
+    text-transform: uppercase;
+}
+
+.giftCards .allGiftCards .allGiftCardsHeader button {
+    margin-right: 30px;
+    border: 0;
+    font-size: 17px;
+    color: #18754A;
+}
+.react-multi-carousel-list  ,.allGiftCardsSlider , .allGiftCardsHeader {
+    padding: 10px 0;
+}
+.allGiftCardsSlider .card {
+    padding: 10px 0;
+}
+.allGiftCardsSlider img {
+    width: 90%;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+.allGiftCardsSlider img:hover {
+    transform: translate(0%, -5%);
+}
+.react-multi-carousel-list ul {
+    padding-left: 130px;
+}
+.react-multi-carousel-list button {
+    margin-left: 130px;
+}
+.allGiftCardsSlider li[aria-hidden="true"] {
+    opacity: 0.3;
+}
+.allGiftCardsSlider li[aria-hidden="true"] img {
+    transform: translate(0) !important;
+}

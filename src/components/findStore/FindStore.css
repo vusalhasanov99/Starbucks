@@ -1,0 +1,57 @@
+.findStore{
+    display: flex;
+}
+.findStoreContent{
+    width: 40%;
+    padding: 30px;
+}
+.findStoreMap{
+    width: 60%;
+}
+.searchFilter {
+display: flex;
+justify-content: space-between;
+position: relative;
+margin-bottom: 30px;
+}
+.searchFilter input{
+    width: 80%;
+    outline: none;
+    border: 0;
+    color: rgba(0,0,0,.58);
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0,0,0,.58);
+}
+.searchBtn{
+    border: 0;
+    position: absolute;
+    right: 18%;
+    color: rgba(0,0,0,.58);
+}
+.filterBtn{
+    color: #00754a;
+    font-size: 16px;
+}
+.findStoreContentTExt h1{
+    font-size: 27px;
+    padding: 10px 0;
+    letter-spacing: 1px;
+    color: rgba(0,0,0,.87);
+    font-weight: 600;
+}
+.findStoreContentTExt p{
+    color: rgba(0,0,0,.58);
+    padding: 10px 0;
+}
+.findStoreBtns {
+    padding: 40px 0;
+}
+.findStoreBtns button{
+display: flex;
+align-items: center;
+border: 0;
+font-size: 15px;
+color: #00754a;
+padding: 0;
+margin: 15px 0;
+}

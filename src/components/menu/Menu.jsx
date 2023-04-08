@@ -1,7 +1,6 @@
 import React from 'react'
 import { Outlet, useLocation } from 'react-router-dom'
 import NavMenu from './navMenu/NavMenu'
-import MenuItems from './menuItems/MenuItems'
 function Menu() {
   const location = useLocation()
   return (

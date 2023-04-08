@@ -11,6 +11,8 @@ import FavoriteProducts from './components/menu/favoriteProducts/FavoriteProduct
 import Rewards from './components/rewards/Rewards'
 import GiftCards from './components/giftCards/GiftCards'
 import SignIn from './components/signIn/SignIn'
+import JoinNow from './components/joinNow/JoinNow'
+import FindStore from './components/findStore/FindStore'
 
 function Routing() {
   return (
@@ -29,7 +31,9 @@ function Routing() {
 
         </Route>
         <Route path='gift' element={<GiftCards />} />
+        <Route path='findstore' element={<FindStore />} />
         <Route path='account/signin' element={<SignIn />} />
+        <Route path='account/joinnow' element={<JoinNow />} />
 
       </Route>
     </Routes>
