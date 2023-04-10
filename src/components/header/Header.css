@@ -6,7 +6,7 @@ header {
 header a {
     color: black;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 header a:hover {
@@ -19,7 +19,6 @@ header .container {
 
 .logo {
     width: 60px;
-    margin-right: 40px;
 }
 
 nav {
@@ -33,14 +32,17 @@ header nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 22%;
+}
+
+header nav ul li,
+header nav a {
+    margin-left: 20px;
 }
 
 .navRight {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 28%;
 }
 
 .navRight a {
@@ -81,4 +83,10 @@ button {
 .navbar li:has(a.active),
 .navRight a.active {
     box-shadow: inset 0 -6px #00754a;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar{
+        display: none;
+    }
 }

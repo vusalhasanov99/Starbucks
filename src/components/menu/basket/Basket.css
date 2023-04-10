@@ -1,0 +1,31 @@
+.basket {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1E3932;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 20px 0;
+}
+
+.chooseStore a {
+    border-bottom: 1px solid;
+    color: white;
+}
+
+.store p {
+    color: hsla(0, 0%, 100%, .7);
+    font-weight: 500;
+    width: 200px;
+    padding: 10px 0;
+}
+
+.store h2 {
+    font-size: 18px;
+}
+
+.basketIcon {
+    cursor: pointer;
+}

@@ -1,0 +1,27 @@
+.errorPage{
+    width: 50%;
+    margin: auto;
+    padding: 50px 0;
+}
+.errorPage h1{
+    padding: 20px 0;
+    font-size: 28px;
+    color: rgba(0,0,0,.87);
+}
+.errorPage p{
+    padding: 20px 0;
+    font-size: 18px;
+    color: rgba(0,0,0,.87);
+}
+.errorPage .d-flex .btns h2{
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+.errorPage .d-flex .btns button{
+    display: block;
+    margin: 10px 0;
+    border: 0;
+    color: #00754a;
+    font-size: 16px;
+}

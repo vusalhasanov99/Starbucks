@@ -5,9 +5,9 @@ import "react-multi-carousel/lib/styles.css";
 import { nanoid } from 'nanoid';
 import Carousel from 'react-multi-carousel';
 import GotAGiftCard from '../gotAGiftCard/GotAGiftCard';
-function AllGiftCards({changePage}) {
+import { Link } from 'react-router-dom';
+function AllGiftCards() {
     const { data } = useSelector((store) => store.product);
-    console.log(data[0]);
     const responsive = {
         superLargeDesktop: {
             breakpoint: { max: 4000, min: 3000 },
@@ -29,16 +29,16 @@ function AllGiftCards({changePage}) {
     };
     return (
         <div className='allGiftCards'>
-             <div className="allGiftCardsSlider">
+            <div className="allGiftCardsSlider">
                 {data.slice(0, 1).map(item =>
                     <div key={nanoid()} className='p'>
                         <div className="allGiftCardsHeader">
                             <h1>{item.category}</h1>
-                            <button onClick={changePage}>{item.see}</button>
+                            <Link to={"category/"+item.category.toLocaleLowerCase()}> <button >{item.see}</button></Link>
                         </div>
                         <Carousel responsive={responsive}>
                             {item.cards.map(item =>
-                                <div className="card">
+                                <div key={nanoid} className="card">
                                     <img src={item} alt="" />
                                 </div>)}
                         </Carousel>
@@ -48,11 +48,11 @@ function AllGiftCards({changePage}) {
                     <div key={nanoid()} className='p' >
                         <div className="allGiftCardsHeader">
                             <h1>{item.category}</h1>
-                            <button onClick={changePage}>{item.see}</button>
+                            <Link to={"category/"+item.category.toLocaleLowerCase()}> <button >{item.see}</button></Link>
                         </div>
                         <Carousel responsive={responsive}>
                             {item.cards.map(item =>
-                                <div className="card">
+                                <div key={nanoid()} className="card">
                                     <img src={item} alt="" />
                                 </div>)}
                         </Carousel>
@@ -61,7 +61,7 @@ function AllGiftCards({changePage}) {
 
 
             </div>
-           
+
         </div>
     )
 }

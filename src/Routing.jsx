@@ -13,6 +13,10 @@ import GiftCards from './components/giftCards/GiftCards'
 import SignIn from './components/signIn/SignIn'
 import JoinNow from './components/joinNow/JoinNow'
 import FindStore from './components/findStore/FindStore'
+import MenuAllDatas from './components/menu/allProducts/MenuAllDatas'
+import Drinks from './components/menu/allProducts/Oleato'
+import Featured from './components/giftCards/featured/Featured'
+import ErrorPage from './components/errorPage/ErrorPage'
 
 function Routing() {
   return (
@@ -20,7 +24,11 @@ function Routing() {
       <Route path='/' element={<MainLayout />}>
         <Route index element={<Main />} />
         <Route path='menu' element={<Menu />} >
-          <Route index element={<AllProducts />} />
+          <Route path='' element={<AllProducts />} >
+            <Route index element={<MenuAllDatas />} />
+            <Route path='drinks/oleato' element={<Drinks />} />
+
+          </Route>
           <Route path='featured' element={<Feautured />} />
           <Route path='previous' element={<PreviousOrders />} />
           <Route path='favorites' element={<FavoriteProducts />} />
@@ -31,9 +39,11 @@ function Routing() {
 
         </Route>
         <Route path='gift' element={<GiftCards />} />
+        <Route path='gift/category/:category' element={<Featured />} />
         <Route path='findstore' element={<FindStore />} />
         <Route path='account/signin' element={<SignIn />} />
         <Route path='account/joinnow' element={<JoinNow />} />
+        <Route path='*' element={<ErrorPage />} />
 
       </Route>
     </Routes>
