@@ -1,0 +1,21 @@
+.responsiveLi  {
+    margin: 10px 0;
+}
+.responsiveLi  a{
+    color: rgba(0,0,0,.58);
+    font-size: 16px;
+}
+.responsiveLi a:hover{
+    color: black;
+}
+.ant-collapse-header-text{
+    font-size: 20px;
+}
+.ant-collapse-expand-icon{
+    position: absolute;
+    right: 10px;
+
+}
+.ant-collapse-expand-icon svg{
+    font-size: 20px;
+}

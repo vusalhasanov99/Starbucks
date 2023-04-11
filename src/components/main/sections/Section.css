@@ -17,8 +17,9 @@ img {
 
 .section h2 {
     color: #1e3932;
-    font-size: 50px;
+    font-size: 3rem;
     letter-spacing: 3px;
+    padding: 20px 0;
 }
 
 .section p {
@@ -29,7 +30,9 @@ img {
     line-height: 1.5;
     padding: 15px 0;
 }
-
+.section a{
+    padding: 20px 0;
+}
 .section button {
     display: inline-block;
     color: #1e3932;
@@ -49,6 +52,31 @@ img {
     background-color: #fff4d4;
 }
 
+@media only screen and (max-width: 992px) {
+section{
+    flex-direction: column;
+}
+section:nth-child(3){
+    flex-direction: column-reverse;
+}
+.section{
+    width: 100%;
+}
+.section h2{
+    font-size: 2rem;
+}
+.section p{
+    font-size: 1.5rem;
+}
+}
 @media only screen and (max-width: 768px) {
-
+section{
+    flex-direction: column;
+}
+.section h2{
+    font-size: 1.5rem;
+}
+.section p{
+    font-size: 1rem;
+}
 }

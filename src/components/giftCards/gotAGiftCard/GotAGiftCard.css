@@ -44,3 +44,18 @@
 .gotAGiftCard a svg{
     margin-bottom: -6px;
 }
+@media (max-width:992px) {
+    .gotAGiftCard .cardTerm{
+        display: flex;
+       align-items: end;
+        }
+}
+@media (max-width:768px) {
+  .gotAGiftCard{
+    padding: 0 30px;
+  }
+  .gotAGiftCardItem{
+    display: block;
+  }
+
+}

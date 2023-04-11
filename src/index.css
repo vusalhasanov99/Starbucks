@@ -6,7 +6,9 @@
   text-decoration: none;
   font-family: 'SoDo Sans';
 }
-
+body{
+  overflow-x: hidden;
+}
 .container {
   width: 95%;
   margin: auto;
@@ -22,4 +24,7 @@
 
 .jc {
   justify-content: center;
+}
+.jb{
+  justify-content: space-between;
 }

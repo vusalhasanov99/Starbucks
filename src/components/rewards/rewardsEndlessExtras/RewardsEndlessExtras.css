@@ -37,3 +37,17 @@
     color: #006241;
     text-decoration: underline;
 }
+@media (max-width:768px){
+    .rewardsEndlessExtrasItems{
+        flex-direction: column;
+    }
+    .rewardsEndlessExtrasItem{
+        display: flex;
+        width: 100%;
+      text-align: start;
+      gap: 20px;
+    }
+    .rewardsEndlessExtrasItemImg{
+        width: 25%;
+    }
+}

@@ -9,10 +9,13 @@ function RewardsCashItem({usd,description,data}) {
         <h1>{usd}</h1>
         <p>{description}</p>
       </div>
-        {data.map(item=>(
+      <div className='d-flex'>
+        
+      {data.map(item=>(
             <RewardsCashItemApp key={nanoid()} {...item}/>
         ))}
 
+      </div>
     </div>
   )
 }

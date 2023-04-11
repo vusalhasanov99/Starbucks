@@ -1,12 +1,13 @@
 .giftBulk{
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 30px;
     padding: 40px 0 40px 130px ;
     background-color: #f9f9f9;
 }
 .giftBulk .img{
-    width: 55%;
+  max-width: 375px;
 }
 .giftBulk .text {
     padding: 10px;
@@ -25,4 +26,15 @@
 }
 .giftBulk button:hover{
    background-color: rgba(0,0,0,.1);;
+}
+
+@media (max-width: 768px){
+    .giftBulk{
+      padding: 0 30px;
+      display: block;
+    }
+    .text{
+      display: block;
+    }
+
 }

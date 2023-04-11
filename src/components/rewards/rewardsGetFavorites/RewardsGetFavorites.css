@@ -21,7 +21,10 @@
     border-radius: 0;
     padding-bottom: 15px;
 }
-
+.rewardsGetFavoritesItemImg,.rewardsGetFavoritesItemText{
+    width: 400px !important;
+    text-align: center;
+}
 .rewardsGetFavorites button span {
     color: #cba258;
     font-size: 15px;
@@ -57,4 +60,13 @@
 
 .borderGreen {
     border-bottom: 5px solid green !important;
+}
+
+@media (max-width:768px){
+.rewardsGetFavoritesItemText{
+        text-align: center;
+    }
+    .rewardsGetFavoritesItem{
+        flex-direction: column;
+    }
 }

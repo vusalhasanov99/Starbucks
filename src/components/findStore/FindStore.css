@@ -55,3 +55,16 @@ color: #00754a;
 padding: 0;
 margin: 15px 0;
 }
+
+@media (max-width:992px) {
+    .findStore{
+      flex-direction: column;
+    }
+    .findStoreContent{
+        width: 100%;
+        padding: 30px;
+    }
+    .findStoreMap{
+        width: 100%;
+    }
+}

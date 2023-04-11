@@ -1,0 +1,39 @@
+.responsiveHeader{
+    display: none;
+}
+.menuIcon{
+    cursor: pointer;
+}
+.menuHeader{
+    position: absolute;
+    transform: translate(-80%,.4%);
+    background-color: white;
+    height: 100vh;
+    width: 75%;
+    line-height: 3;
+    padding: 40px;
+    transition: 0.5s;
+    z-index: 999;
+}
+.menuHeader li,.menuHeader li a{
+    color: rgba(0,0,0,.87) !important;
+    font-weight: 600;
+    cursor: pointer;
+}
+.menuHeader >div>div{
+    margin: 15px 0;
+}
+.svgMenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menuHeader >div>div button{
+ margin-right: 5px;
+}
+@media (max-width: 768px) {
+    .responsiveHeader{
+        display: block;
+    }
+}

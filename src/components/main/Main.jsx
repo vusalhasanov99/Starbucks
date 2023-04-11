@@ -7,12 +7,12 @@ import { Outlet } from 'react-router-dom'
 
 function Main() {
   return (
-    <div>
+    <>
       <Section1/>
       <Section2/>
       <Section3/>
       <Outlet/>
-    </div>
+    </>
   )
 }
 

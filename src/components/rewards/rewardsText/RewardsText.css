@@ -33,3 +33,15 @@ text-decoration: none;
 .rewardsText svg{
     margin-bottom: -6px;
 }
+@media (max-width:768px){
+    .rewardsTextItems{
+        flex-direction: column;
+    }
+.rewardsText p{
+    font-size: 12px;
+}
+.rewardsText h1{
+    font-size: 13px;
+    font-weight: 700;
+}
+}
