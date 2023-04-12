@@ -13,7 +13,10 @@
     line-height: 3;
     padding: 40px;
     transition: 0.5s;
-    z-index: 999;
+    z-index: 9999;
+}
+html:has(.fa-x){
+    overflow: hidden;
 }
 .menuHeader li,.menuHeader li a{
     color: rgba(0,0,0,.87) !important;
@@ -31,6 +34,27 @@
 
 .menuHeader >div>div button{
  margin-right: 5px;
+}
+.menuAllProducts{
+    background-color: white;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    line-height: 3;
+    transition: 0.5s;
+    z-index: 999;
+}
+.menuAllProducts svg,.menuAllProducts a{
+    margin-left: 20px;
+    font-size: 18px;
+    color: rgba(0,0,0,.87);
+}
+.MenuBack{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    background-color:#F9F9F9; 
 }
 @media (max-width: 768px) {
     .responsiveHeader{

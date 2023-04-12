@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "post": {
+        "firstname": "sassss",
+        "lastname": "",
+        "email": "",
+        "password": ""
+      },
+      "id": 1
+    },
+    {
+      "post": {
+        "firstname": "",
+        "lastname": "sasqsq",
+        "email": "",
+        "password": ""
+      },
+      "id": 2
+    }
+  ]
+}

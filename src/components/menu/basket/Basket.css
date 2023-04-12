@@ -9,7 +9,9 @@
     bottom: 0;
     padding: 20px 0;
 }
-
+html:has(.modal){
+    overflow: hidden;
+}
 .chooseStore a {
     border-bottom: 1px solid;
     color: white;

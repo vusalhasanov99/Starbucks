@@ -3,6 +3,7 @@ import './Footer.css'
 import FooterEnd from './footerEnd/FooterEnd'
 import { Link, useLocation } from 'react-router-dom'
 import ResponsiveFooter from './responsiveFooter/ResponsiveFooter'
+import { nanoid } from 'nanoid'
 
 function Footer() {
     const datas = [
@@ -37,11 +38,11 @@ function Footer() {
             <div className="container">
                 <div className="footerItems d-flex ">
                     {datas.map(item => (
-                        <div className='footerItem'>
+                        <div className='footerItem' key={nanoid()}>
                             <h2>{item.title}</h2>
                             <ul>
                                 {item.li.map(item => (
-                                    <li><Link>{item}</Link></li>
+                                    <li key={nanoid()}><Link>{item}</Link></li>
                                 ))}
                             </ul>
                         </div>

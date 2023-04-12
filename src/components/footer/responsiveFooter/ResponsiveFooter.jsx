@@ -1,5 +1,6 @@
 import './ResponsiveFooter.css'
 import { Collapse } from 'antd';
+import { nanoid } from 'nanoid';
 import { Link } from 'react-router-dom';
 const { Panel } = Collapse;
 const text = `
@@ -14,9 +15,9 @@ const ResponsiveFooter = ({ datas }) => {
   return (
     <Collapse onChange={onChange}>
       {datas.map(item => (
-        <Panel header={item.title} key={item.length}>
+        <Panel header={item.title} key={nanoid()}>
           {item.li.map(item => (
-            <li className='responsiveLi'><Link>{item}</Link></li>
+            <li className='responsiveLi' key={nanoid()}><Link>{item}</Link></li>
           ))}
         </Panel>
       ))}
