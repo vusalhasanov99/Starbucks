@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './ResponsiveHeader.css'
+import { Link } from 'react-router-dom'
 function ResponsiveHeader() {
     const [transform, setTransform] = useState(false)
     const [menuTransform, setMenuTransform] = useState(false)
@@ -13,8 +14,8 @@ function ResponsiveHeader() {
             <div className="menuHeader" style={{ transform: transform ? "translate(-90%)" : "translate(200%)" }}>
                 <ul>
                     <li className='svgMenu' onClick={() => setMenuTransform(!menuTransform)}><span>MENU</span> <svg aria-hidden="true" className="valign-middle " focusable="false" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" style={{ width: "24px", height: "24px", overflow: "visible", fill: "currentcolor" }}><path d="M8.902 17.656c-.293.293-.293.768 0 1.06.293.294.768.294 1.06 0L16.38 12.3c.293-.293.293-.768 0-1.06L9.86 4.72c-.293-.293-.767-.293-1.06 0-.293.293-.293.767 0 1.06l5.99 5.99L8.9 17.656z"></path></svg></li>
-                    <li><a href="/rewards">REWARDS</a></li>
-                    <li><a href="/gift">GIFT CARDS</a></li>
+                    <li onClick={() => setTransform(false)}><Link to="/rewards">REWARDS</Link></li>
+                    <li onClick={() => setTransform(false)}><Link to="/gift">GIFT CARDS</Link></li>
                 </ul>
                 <hr />
                 <div>
@@ -27,10 +28,10 @@ function ResponsiveHeader() {
                 <div className="menuAllProducts" style={{ transform: menuTransform ? "translate(-12%)" : "translate(200%)" }}>
                     <ul>
                         <li className='MenuBack' onClick={()=>setMenuTransform(false)}><svg aria-hidden="true" className="valign-middle sb-hamburgerNav-pushViewButton-left-arrow" focusable="false" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" style={{width: "24px", height: "24px", overflow: "visible", fill: "currentcolor"}}><path d="M15.098 5.78c.292-.293.292-.767 0-1.06-.293-.293-.768-.293-1.06 0L7.62 11.137c-.293.293-.293.768 0 1.06l6.52 6.52c.292.293.767.293 1.06 0 .293-.293.293-.768 0-1.06l-5.99-5.99L15.1 5.78z"></path></svg><span>MENU</span> </li>
-                        <li><a href="/menu">All products</a></li>
-                        <li><a href="/menu/featured">Featured</a></li>
-                        <li><a href="/menu/previous">Previous</a></li>
-                        <li><a href="/menu/favorites">Favorites</a></li>
+                        <li onClick={() => setTransform(false)}><Link to="/menu">All products</Link></li>
+                        <li onClick={() => setTransform(false)}><Link to="/menu/featured">Featured</Link></li>
+                        <li onClick={() => setTransform(false)}><Link to="/menu/previous">Previous</Link></li>
+                        <li onClick={() => setTransform(false)}><Link to="/menu/favorites">Favorites</Link></li>
                     </ul>
                     <div>
                     </div>
