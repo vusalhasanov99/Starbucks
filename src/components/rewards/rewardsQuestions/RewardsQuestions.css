@@ -24,3 +24,14 @@ width: 70%;
 .rewardsQuestions a:hover{
 text-decoration: none;
 }
+
+@media (max-width: 768px){
+    .rewardsQuestions {
+        width: 100%;
+        padding: 20px;
+    }
+    .rewardsQuestions p{
+        width: 100%;
+        font-size: 15px;
+    }
+}

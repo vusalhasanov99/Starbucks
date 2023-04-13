@@ -85,7 +85,7 @@ button {
     box-shadow: inset 0 -6px #00754a;
 }
 
-@media (max-width: 768px) {
+@media  (max-width: 768px) {
     nav{
     display: none;
 

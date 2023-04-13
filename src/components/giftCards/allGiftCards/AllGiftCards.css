@@ -23,6 +23,7 @@
 .react-multi-carousel-list  ,.allGiftCardsSlider , .allGiftCardsHeader {
     padding: 10px 0;
 }
+
 .allGiftCardsSlider .card {
     padding: 10px 0;
 }
@@ -35,7 +36,7 @@
     transform: translate(0%, -5%);
 }
 .react-multi-carousel-list ul {
-    padding-left: 130px;
+    padding: 0 20px;
 }
 .react-multi-carousel-list button {
     margin-left: 130px;
@@ -54,4 +55,5 @@
         padding: 0 30px;
 
     }
+  
 }

@@ -6,6 +6,7 @@
 .rewardsKeepContent {
     display: flex;
     background-color: #D4E9E2;
+    align-items: center;
 }
 
 .rewardsKeepContent>div {
@@ -46,4 +47,32 @@
 }
 .rewardsKeepContentItem button:hover{
     background-color: hwb(158 8% 49% / 0.938);
+}
+@media (max-width: 992px){
+    .rewardsKeepContent>div{
+        padding: 20px;
+    }
+}
+@media (max-width: 768px){
+    .rewardsKeepContent>div{
+        padding: 10px;
+    }
+    .rewardsKeepContent{
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .rewardsKeepContent .img{
+        width: 100px;
+        height: 100px;
+    }
+    .rewardsKeepContent .img:nth-child(2){
+        display: flex;
+  text-align: start;
+    }
+    .rewardsKeepContent .img:nth-child(3){
+        display: flex;
+        align-self: flex-end;
+    }
+
+  
 }

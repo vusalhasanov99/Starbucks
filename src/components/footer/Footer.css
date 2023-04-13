@@ -31,6 +31,12 @@ width: 16%;
 .footerItem li a:hover{
     color: black;
 }
+.ant-collapse-header[aria-expanded="false"] svg{
+    rotate: 90deg !important;
+}
+.ant-collapse-header[aria-expanded="true"] svg{
+    rotate: 180deg !important;
+}
 @media (max-width: 992px) {
     .responsiveFooter{
         display: block !important;

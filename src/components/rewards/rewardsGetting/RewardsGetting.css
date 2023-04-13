@@ -52,4 +52,12 @@
     .rewardsGettingItem h2{
         display: none;
     }
+    .rewardsGettingItemImg{
+        width: 100px;
+    }
+
+.rewardsGettingItem p{
+    font-size: 14px;
+    margin-left: 20px;
+}
 }

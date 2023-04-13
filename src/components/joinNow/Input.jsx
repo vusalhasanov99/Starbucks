@@ -1,13 +1,12 @@
 import axios from 'axios'
 import { nanoid } from 'nanoid'
-import React, { useEffect, useState } from 'react'
+import React, {useState } from 'react'
 
 function Input({ label, type, err, alert, show, hide, x, emailAlert, name }) {
     const [value, setValue] = useState("")
     const [status, setStatus] = useState(false)
     const [blur, setBlur] = useState(true)
     const [view, setView] = useState(false)
-    const [valLength, setValLength] = useState(false)
     const changeBlur = () => {
         setStatus(true)
         setBlur(false)
@@ -20,9 +19,6 @@ function Input({ label, type, err, alert, show, hide, x, emailAlert, name }) {
     })
     const changeValue = (e) => {
         setValue(e.target.value)
-        if (value.length > 0) {
-            setValLength(true)
-        }
         setPost({ ...post, [e.target.name]: e.target.value })
     }
   

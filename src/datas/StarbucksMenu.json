@@ -1,0 +1,752 @@
+{
+    "menu": {
+        "categories": [
+            {
+                "name": "Drinks",
+                "sections": [
+                    {
+                        "name": "Oleato",
+                        "sections": [
+                            {
+                                "name": "Oleato",
+                                "products": [
+                                    {
+                                        "name": "Oleato Golden Foam™ Cold Brew",
+                                        "img": "https://globalassets.starbucks.com/assets/3DB27F5E792C48E9B867A443AA648D26.jpg?impolicy=1by1_wide_topcrop_630",
+                                        "sizes": [
+                                            {
+                                                "size": "Tall",
+                                                "capacity": "12 fl oz",
+                                                "calories": "330 calories"
+                                            },
+                                            {
+                                                "size": "Grande",
+                                                "capacity": "16 fl oz",
+                                                "calories": "380 calories"
+                                            },
+                                            {
+                                                "size": "Venti",
+                                                "capacity": "24 fl oz",
+                                                "calories": "400 calories"
+                                            },
+                                            {
+                                                "size": "Trenta",
+                                                "capacity": "30 fl oz",
+                                                "calories": "450 calories"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Oleato™ Caffé Latte with Oatmilk",
+                                        "img": "https://globalassets.starbucks.com/assets/3DB27F5E792C48E9B867A443AA648D26.jpg?impolicy=1by1_wide_topcrop_630",
+                                        "sizes": [
+                                            {
+                                                "size": "Short",
+                                                "capacity": "8 fl oz",
+                                                "calories": "210 calories"
+                                            },
+                                            {
+                                                "size": "Tall",
+                                                "capacity": "12 fl oz",
+                                                "calories": "270 calories"
+                                            },
+                                            {
+                                                "size": "Grande",
+                                                "capacity": "16 fl oz",
+                                                "calories": "330 calories"
+                                            },
+                                            {
+                                                "size": "Venti",
+                                                "capacity": "24 fl oz",
+                                                "calories": "410 calories"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Oleato™ Iced Shaken Espresso with Oatmilk and Toffeenut",
+                                        "img": "https://globalassets.starbucks.com/assets/3DB27F5E792C48E9B867A443AA648D26.jpg?impolicy=1by1_wide_topcrop_630",
+                                        "sizes": [
+                                            {
+                                                "size": "Tall",
+                                                "capacity": "12 fl oz",
+                                                "calories": "220 calories"
+                                            },
+                                            {
+                                                "size": "Grande",
+                                                "capacity": "16 fl oz",
+                                                "calories": "250 calories"
+                                            },
+                                            {
+                                                "size": "Venti",
+                                                "capacity": "24 fl oz",
+                                                "calories": "310 calories"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hot Coffees",
+                        "sections": [
+                            {
+                                "name": "Americanos",
+                                "products": [
+                                    {
+                                        "product": "Caffè Americano",
+                                        "img": "https://globalassets.starbucks.com/assets/f12bc8af498d45ed92c5d6f1dac64062.jpg?impolicy=1by1_wide_topcrop_630",
+                                        "sizes": [
+                                            {
+                                                "size": "Short",
+                                                "capacity": "8 fl oz",
+                                                "calories": "5 calories"
+                                            },
+                                            {
+                                                "size": "Tall",
+                                                "capacity": "12 fl oz",
+                                                "calories": "10 calories"
+                                            },
+                                            {
+                                                "size": "Grande",
+                                                "capacity": "16 fl oz",
+                                                "calories": "15 calories"
+                                            },
+                                            {
+                                                "size": "Venti",
+                                                "capacity": "24 fl oz",
+                                                "calories": "15 calories"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Brewed Coffees",
+                                "products": [
+                                    {
+                                        "product": "Veranda Blend®",
+                                        "img": "https://globalassets.starbucks.com/assets/51bf549cd8e9434da941fec33b820d39.jpg?impolicy=1by1_wide_topcrop_630",
+                                        "sizes": [
+                                            {
+                                                "size": "Short",
+                                                "capacity": "8 fl oz",
+                                                "calories": "5 calories"
+                                            },
+                                            {
+                                                "size": "Tall",
+                                                "capacity": "12 fl oz",
+                                                "calories": "5 calories"
+                                            },
+                                            {
+                                                "size": "Grande",
+                                                "capacity": "16 fl oz",
+                                                "calories": "5 calories"
+                                            },
+                                            {
+                                                "size": "Venti",
+                                                "capacity": "20 fl oz",
+                                                "calories": "5 calories"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "product": "Featured Medium Roast - Pike Place® Roast",
+                                        "img": "https://globalassets.starbucks.com/assets/51bf549cd8e9434da941fec33b820d39.jpg?impolicy=1by1_wide_topcrop_630",
+                                        "sizes": [
+                                            {
+                                                "size": "Short",
+                                                "capacity": "8 fl oz",
+                                                "calories": "5 calories"
+                                            },
+                                            {
+                                                "size": "Tall",
+                                                "capacity": "12 fl oz",
+                                                "calories": "5 calories"
+                                            },
+                                            {
+                                                "size": "Grande",
+                                                "capacity": "16 fl oz",
+                                                "calories": "5 calories"
+                                            },
+                                            {
+                                                "size": "Venti",
+                                                "capacity": "20 fl oz",
+                                                "calories": "5 calories"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "product": "Featured Starbucks® Dark Roast Coffee",
+                                        "img": "https://globalassets.starbucks.com/assets/51bf549cd8e9434da941fec33b820d39.jpg?impolicy=1by1_wide_topcrop_630",
+                                        "sizes": [
+                                            {
+                                                "size": "Short",
+                                                "capacity": "8 fl oz",
+                                                "calories": "5 calories"
+                                            },
+                                            {
+                                                "size": "Tall",
+                                                "capacity": "12 fl oz",
+                                                "calories": "5 calories"
+                                            },
+                                            {
+                                                "size": "Grande",
+                                                "capacity": "16 fl oz",
+                                                "calories": "5 calories"
+                                            },
+                                            {
+                                                "size": "Venti",
+                                                "capacity": "20 fl oz",
+                                                "calories": "5 calories"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "product": "Decaf Pike Place® Roast",
+                                        "img": "https://globalassets.starbucks.com/assets/51bf549cd8e9434da941fec33b820d39.jpg?impolicy=1by1_wide_topcrop_630",
+                                        "sizes": [
+                                            {
+                                                "size": "Short",
+                                                "capacity": "8 fl oz",
+                                                "calories": "5 calories"
+                                            },
+                                            {
+                                                "size": "Tall",
+                                                "capacity": "12 fl oz",
+                                                "calories": "5 calories"
+                                            },
+                                            {
+                                                "size": "Grande",
+                                                "capacity": "16 fl oz",
+                                                "calories": "5 calories"
+                                            },
+                                            {
+                                                "size": "Venti",
+                                                "capacity": "20 fl oz",
+                                                "calories": "5 calories"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "product": "Ethiopia Yirgacheffe® Chelelektu Clover® Starbucks Reserve®",
+                                        "img": "https://globalassets.starbucks.com/assets/47b18a8fba28400cb6cdcab6037a6c4d.jpg?impolicy=1by1_wide_topcrop_630",
+                                        "sizes": [
+                                            {
+                                                "size": "Short",
+                                                "capacity": "8 fl oz",
+                                                "calories": "10 calories"
+                                            },
+                                            {
+                                                "size": "Tall",
+                                                "capacity": "12 fl oz",
+                                                "calories": "10 calories"
+                                            },
+                                            {
+                                                "size": "Grande",
+                                                "capacity": "16 fl oz",
+                                                "calories": "10 calories"
+                                            },
+                                            {
+                                                "size": "Venti",
+                                                "capacity": "20 fl oz",
+                                                "calories": "10 calories"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "product": "Guatemala Lake Atitlán Clover® Starbucks Reserve®",
+                                        "img": "https://globalassets.starbucks.com/assets/1007da79258346028bc166310d4650fe.jpg?impolicy=1by1_wide_topcrop_630",
+                                        "sizes": [
+                                            {
+                                                "size": "Short",
+                                                "capacity": "8 fl oz",
+                                                "calories": "10 calories"
+                                            },
+                                            {
+                                                "size": "Tall",
+                                                "capacity": "12 fl oz",
+                                                "calories": "10 calories"
+                                            },
+                                            {
+                                                "size": "Grande",
+                                                "capacity": "16 fl oz",
+                                                "calories": "10 calories"
+                                            },
+                                            {
+                                                "size": "Venti",
+                                                "capacity": "20 fl oz",
+                                                "calories": "10 calories"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "product": "Galápagos La Tortuga Clover® Starbucks Reserve®",
+                                        "img": "https://globalassets.starbucks.com/assets/951aeba7f6ea4511a76f166730f6be18.jpg?impolicy=1by1_wide_topcrop_630",
+                                        "sizes": [
+                                            {
+                                                "size": "Short",
+                                                "capacity": "8 fl oz",
+                                                "calories": "10 calories"
+                                            },
+                                            {
+                                                "size": "Tall",
+                                                "capacity": "12 fl oz",
+                                                "calories": "10 calories"
+                                            },
+                                            {
+                                                "size": "Grande",
+                                                "capacity": "16 fl oz",
+                                                "calories": "10 calories"
+                                            },
+                                            {
+                                                "size": "Venti",
+                                                "capacity": "20 fl oz",
+                                                "calories": "10 calories"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "product": "Clover® Starbucks Reserve® Costa Rica Naranjo",
+                                        "img": "https://globalassets.starbucks.com/assets/48f8877dfbc841dfa2cdec27508786fa.jpg?impolicy=1by1_wide_topcrop_630",
+                                        "sizes": [
+                                            {
+                                                "size": "Short",
+                                                "capacity": "8 fl oz",
+                                                "calories": "10 calories"
+                                            },
+                                            {
+                                                "size": "Tall",
+                                                "capacity": "12 fl oz",
+                                                "calories": "10 calories"
+                                            },
+                                            {
+                                                "size": "Grande",
+                                                "capacity": "16 fl oz",
+                                                "calories": "10 calories"
+                                            },
+                                            {
+                                                "size": "Venti",
+                                                "capacity": "20 fl oz",
+                                                "calories": "10 calories"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "product": "Caffè Misto",
+                                        "img": "https://globalassets.starbucks.com/assets/d668acbc691b47249548a3eeac449916.jpg?impolicy=1by1_wide_topcrop_630",
+                                        "sizes": [
+                                            {
+                                                "size": "Short",
+                                                "capacity": "8 fl oz",
+                                                "calories": "50 calories"
+                                            },
+                                            {
+                                                "size": "Tall",
+                                                "capacity": "12 fl oz",
+                                                "calories": "80 calories"
+                                            },
+                                            {
+                                                "size": "Grande",
+                                                "capacity": "16 fl oz",
+                                                "calories": "110 calories"
+                                            },
+                                            {
+                                                "size": "Venti",
+                                                "capacity": "20 fl oz",
+                                                "calories": "130 calories"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Cappuccinos",
+                                "products": [
+                                    {
+                                        "product": "Cappuccino",
+                                        "img": "https://globalassets.starbucks.com/assets/5c515339667943ce84dc56effdf5fc1b.jpg?impolicy=1by1_wide_topcrop_630",
+                                        "sizes": [
+                                            {
+                                                "size": "Short",
+                                                "capacity": "8 fl oz",
+                                                "calories": "70 calories"
+                                            },
+                                            {
+                                                "size": "Tall",
+                                                "capacity": "12 fl oz",
+                                                "calories": "100 calories"
+                                            },
+                                            {
+                                                "size": "Grande",
+                                                "capacity": "16 fl oz",
+                                                "calories": "140 calories"
+                                            },
+                                            {
+                                                "size": "Venti",
+                                                "capacity": "20 fl oz",
+                                                "calories": "200 calories"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hot Teas",
+                        "sections": [
+                            {
+                                "name": "Chai Teas",
+                                "products": [
+                                    {
+                                        "product": "Chai Tea Latte",
+                                        "img": "https://globalassets.starbucks.com/assets/2d52f16a22fb40ff898be1815ecc952e.jpg?impolicy=1by1_wide_topcrop_630",
+                                        "sizes": [
+                                            {
+                                                "size": "Short",
+                                                "capacity": "8 fl oz",
+                                                "calories": "120 calories"
+                                            },
+                                            {
+                                                "size": "Tall",
+                                                "capacity": "12 fl oz",
+                                                "calories": "190 calories"
+                                            },
+                                            {
+                                                "size": "Grande",
+                                                "capacity": "16 fl oz",
+                                                "calories": "240 calories"
+                                            },
+                                            {
+                                                "size": "Venti",
+                                                "capacity": "20 fl oz",
+                                                "calories": "310 calories"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "product": "Chai Tea",
+                                        "img": "https://globalassets.starbucks.com/assets/49bf4333e9d048498a59a5a2b958165f.jpg?impolicy=1by1_wide_topcrop_630",
+                                        "sizes": [
+                                            {
+                                                "size": "Short",
+                                                "capacity": "8 fl oz",
+                                                "calories": "0 calories"
+                                            },
+                                            {
+                                                "size": "Tall",
+                                                "capacity": "12 fl oz",
+                                                "calories": "0 calories"
+                                            },
+                                            {
+                                                "size": "Grande",
+                                                "capacity": "16 fl oz",
+                                                "calories": "0 calories"
+                                            },
+                                            {
+                                                "size": "Venti",
+                                                "capacity": "20 fl oz",
+                                                "calories": "0 calories"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Black Teas",
+                                "products": [
+                                    {
+                                        "product": "Earl Grey Tea",
+                                        "img": "https://globalassets.starbucks.com/assets/6f780d5d392542c6b9b1a4412881cecc.jpg?impolicy=1by1_wide_topcrop_630",
+                                        "sizes": [
+                                            {
+                                                "size": "Short",
+                                                "capacity": "8 fl oz",
+                                                "calories": "0 calories"
+                                            },
+                                            {
+                                                "size": "Tall",
+                                                "capacity": "12 fl oz",
+                                                "calories": "0 calories"
+                                            },
+                                            {
+                                                "size": "Grande",
+                                                "capacity": "16 fl oz",
+                                                "calories": "0 calories"
+                                            },
+                                            {
+                                                "size": "Venti",
+                                                "capacity": "20 fl oz",
+                                                "calories": "0 calories"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "product": "Teavana® London Fog Tea Latte",
+                                        "img": "https://globalassets.starbucks.com/assets/180da7ecb6fa4d2686babe5619fa7b84.jpg?impolicy=1by1_wide_topcrop_630",
+                                        "sizes": [
+                                            {
+                                                "size": "Short",
+                                                "capacity": "8 fl oz",
+                                                "calories": "90 calories"
+                                            },
+                                            {
+                                                "size": "Tall",
+                                                "capacity": "12 fl oz",
+                                                "calories": "140 calories"
+                                            },
+                                            {
+                                                "size": "Grande",
+                                                "capacity": "16 fl oz",
+                                                "calories": "180 calories"
+                                            },
+                                            {
+                                                "size": "Venti",
+                                                "capacity": "20 fl oz",
+                                                "calories": "230 calories"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "product": "Royal English Breakfast Tea",
+                                        "img": "https://globalassets.starbucks.com/assets/e3554d07d1394ee79cfad80a383ba163.jpg?impolicy=1by1_wide_topcrop_630",
+                                        "sizes": [
+                                            {
+                                                "size": "Short",
+                                                "capacity": "8 fl oz",
+                                                "calories": "0 calories"
+                                            },
+                                            {
+                                                "size": "Tall",
+                                                "capacity": "12 fl oz",
+                                                "calories": "0 calories"
+                                            },
+                                            {
+                                                "size": "Grande",
+                                                "capacity": "16 fl oz",
+                                                "calories": "0 calories"
+                                            },
+                                            {
+                                                "size": "Venti",
+                                                "capacity": "20 fl oz",
+                                                "calories": "0 calories"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "product": "Royal English Breakfast Tea Latte",
+                                        "img": "https://globalassets.starbucks.com/assets/919eb07194f44a0b842c0260c3a286d8.jpg?impolicy=1by1_wide_topcrop_630",
+                                        "sizes": [
+                                            {
+                                                "size": "Short",
+                                                "capacity": "8 fl oz",
+                                                "calories": "80 calories"
+                                            },
+                                            {
+                                                "size": "Tall",
+                                                "capacity": "12 fl oz",
+                                                "calories": "110 calories"
+                                            },
+                                            {
+                                                "size": "Grande",
+                                                "capacity": "16 fl oz",
+                                                "calories": "150 calories"
+                                            },
+                                            {
+                                                "size": "Venti",
+                                                "capacity": "20 fl oz",
+                                                "calories": "190 calories"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Green Teas",
+                                "products": [
+                                    {
+                                        "product": "Emperor’s Clouds & Mist®",
+                                        "img": "https://globalassets.starbucks.com/assets/1a84d455abd84ac3b356c6523fce9ac8.jpg?impolicy=1by1_wide_topcrop_630",
+                                        "sizes": [
+                                            {
+                                                "size": "Short",
+                                                "capacity": "8 fl oz",
+                                                "calories": "0 calories"
+                                            },
+                                            {
+                                                "size": "Tall",
+                                                "capacity": "12 fl oz",
+                                                "calories": "0 calories"
+                                            },
+                                            {
+                                                "size": "Grande",
+                                                "capacity": "16 fl oz",
+                                                "calories": "0 calories"
+                                            },
+                                            {
+                                                "size": "Venti",
+                                                "capacity": "20 fl oz",
+                                                "calories": "0 calories"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "product": "Matcha Tea Latte",
+                                        "img": "https://globalassets.starbucks.com/assets/8b1b6d808cca4787afd2b30cf8dd5676.jpg?impolicy=1by1_wide_topcrop_630",
+                                        "sizes": [
+                                            {
+                                                "size": "Short",
+                                                "capacity": "8 fl oz",
+                                                "calories": "110 calories"
+                                            },
+                                            {
+                                                "size": "Tall",
+                                                "capacity": "12 fl oz",
+                                                "calories": "190 calories"
+                                            },
+                                            {
+                                                "size": "Grande",
+                                                "capacity": "16 fl oz",
+                                                "calories": "240 calories"
+                                            },
+                                            {
+                                                "size": "Venti",
+                                                "capacity": "20 fl oz",
+                                                "calories": "320 calories"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "product": "Honey Citrus Mint Tea",
+                                        "img": "https://globalassets.starbucks.com/assets/a5e64777b3cc412e9239b8a37328cb37.jpg?impolicy=1by1_wide_topcrop_630",
+                                        "sizes": [
+                                            {
+                                                "size": "Short",
+                                                "capacity": "8 fl oz",
+                                                "calories": "60 calories"
+                                            },
+                                            {
+                                                "size": "Tall",
+                                                "capacity": "12 fl oz",
+                                                "calories": "80 calories"
+                                            },
+                                            {
+                                                "size": "Grande",
+                                                "capacity": "16 fl oz",
+                                                "calories": "130 calories"
+                                            },
+                                            {
+                                                "size": "Venti",
+                                                "capacity": "20 fl oz",
+                                                "calories": "150 calories"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "product": "Jade Citrus Mint® Brewed Tea",
+                                        "img": "https://globalassets.starbucks.com/assets/6a59c09bb55c42f8a6a970e73c22caeb.jpg?impolicy=1by1_wide_topcrop_630",
+                                        "sizes": [
+                                            {
+                                                "size": "Short",
+                                                "capacity": "8 fl oz",
+                                                "calories": "0 calories"
+                                            },
+                                            {
+                                                "size": "Tall",
+                                                "capacity": "12 fl oz",
+                                                "calories": "0 calories"
+                                            },
+                                            {
+                                                "size": "Grande",
+                                                "capacity": "16 fl oz",
+                                                "calories": "0 calories"
+                                            },
+                                            {
+                                                "size": "Venti",
+                                                "capacity": "20 fl oz",
+                                                "calories": "0 calories"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Herbal Teas",
+                                "products": [
+                                    {
+                                        "product": "Mint Majesty®",
+                                        "img": "https://globalassets.starbucks.com/assets/cf7469c84a444e4f9a341f8023558c77.jpg?impolicy=1by1_wide_topcrop_630",
+                                        "sizes": [
+                                            {
+                                                "size": "Short",
+                                                "capacity": "8 fl oz",
+                                                "calories": "0 calories"
+                                            },
+                                            {
+                                                "size": "Tall",
+                                                "capacity": "12 fl oz",
+                                                "calories": "0 calories"
+                                            },
+                                            {
+                                                "size": "Grande",
+                                                "capacity": "16 fl oz",
+                                                "calories": "0 calories"
+                                            },
+                                            {
+                                                "size": "Venti",
+                                                "capacity": "20 fl oz",
+                                                "calories": "0 calories"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "product": "Peach Tranquility®",
+                                        "img": "https://globalassets.starbucks.com/assets/cf7469c84a444e4f9a341f8023558c77.jpg?impolicy=1by1_wide_topcrop_630",
+                                        "sizes": [
+                                            {
+                                                "size": "Short",
+                                                "capacity": "8 fl oz",
+                                                "calories": "0 calories"
+                                            },
+                                            {
+                                                "size": "Tall",
+                                                "capacity": "12 fl oz",
+                                                "calories": "0 calories"
+                                            },
+                                            {
+                                                "size": "Grande",
+                                                "capacity": "16 fl oz",
+                                                "calories": "0 calories"
+                                            },
+                                            {
+                                                "size": "Venti",
+                                                "capacity": "20 fl oz",
+                                                "calories": "0 calories"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hot Drinks"
+                    },
+                    {
+                        "name": "Frappuccino® Blended Beverages"
+                    },
+                    {
+                        "name": "Cold Coffees"
+                    },
+                    {
+                        "name": "Iced Teas"
+                    },
+                    {
+                        "name": "Cold Drinks"
+                    }
+                ]
+            }
+        ]
+    }
+}
