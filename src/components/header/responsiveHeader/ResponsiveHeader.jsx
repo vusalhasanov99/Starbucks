@@ -10,7 +10,7 @@ function ResponsiveHeader() {
                 : <i className="fa-solid fa-x" style={{fontSize:"20px"}}></i>
             }
             </div>
-            <div className="menuHeader" style={{ transform: transform ? "translate(-90%)" : "translate(20%)" }}>
+            <div className="menuHeader" style={{ transform: transform ? "translate(-90%)" : "translate(200%)" }}>
                 <ul>
                     <li className='svgMenu' onClick={() => setMenuTransform(!menuTransform)}><span>MENU</span> <svg aria-hidden="true" className="valign-middle " focusable="false" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" style={{ width: "24px", height: "24px", overflow: "visible", fill: "currentcolor" }}><path d="M8.902 17.656c-.293.293-.293.768 0 1.06.293.294.768.294 1.06 0L16.38 12.3c.293-.293.293-.768 0-1.06L9.86 4.72c-.293-.293-.767-.293-1.06 0-.293.293-.293.767 0 1.06l5.99 5.99L8.9 17.656z"></path></svg></li>
                     <li><a href="/rewards">REWARDS</a></li>

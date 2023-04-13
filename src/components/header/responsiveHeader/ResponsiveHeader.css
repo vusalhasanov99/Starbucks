@@ -1,5 +1,6 @@
 .responsiveHeader{
     display: none;
+    position: relative;
 }
 .menuIcon{
     cursor: pointer;
@@ -9,7 +10,7 @@
     transform: translate(-80%,.4%);
     background-color: white;
     height: 100vh;
-    width: 75%;
+    width: 300px;
     line-height: 3;
     padding: 40px;
     transition: 0.5s;
@@ -60,4 +61,5 @@ html:has(.fa-x){
     .responsiveHeader{
         display: block;
     }
+  
 }

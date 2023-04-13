@@ -6,7 +6,7 @@
   text-decoration: none;
   font-family: 'SoDo Sans';
 }
-body{
+#root{
   overflow-x: hidden;
 }
 .container {
