@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function Section3() {
   return (
@@ -10,7 +10,7 @@ function Section3() {
     <div className="section section3">
       <h2>Hearty on the go</h2>
       <p>Grab a deliciously filling Double-Smoked Bacon, Cheddar & Egg Sandwich or Bacon & Gruyère Egg Bites.</p>
-      <NavLink><button>Order now</button></NavLink>
+      <Link to="menu"><button>Order now</button></Link>
     </div>
   </section>
   )

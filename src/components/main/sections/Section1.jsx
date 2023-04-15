@@ -1,6 +1,6 @@
 import React from 'react'
 import './Section.css'
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function Section1() {
   return (
@@ -11,7 +11,7 @@ function Section1() {
       <div className="section">
         <h2>Nitro your way</h2>
         <p>Try the new Cinnamon Caramel Cream Nitro Cold Brew or go for the Vanilla Sweet Cream Nitro Cold Brew.</p>
-        <NavLink><button>Order now</button></NavLink>
+        <Link to="/menu"><button>Order now</button></Link>
       </div>
     </section>
   )
