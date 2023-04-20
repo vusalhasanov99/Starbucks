@@ -2,8 +2,8 @@ import { createSlice } from '@reduxjs/toolkit';
 import products from '../../datas/Products';
 import data from '../../datas/Data';
 const initialState = {
-  products: products,
-  data: data,
+  products,
+  data
 
 };
 

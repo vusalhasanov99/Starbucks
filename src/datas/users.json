@@ -2,19 +2,19 @@
   "users": [
     {
       "post": {
-        "firstname": "sassss",
-        "lastname": "",
-        "email": "",
-        "password": ""
+        "firstname": "Vusal",
+        "lastname": "Hasanov",
+        "email": "vusalhasanov012@gmail.com",
+        "password": "vusal123"
       },
       "id": 1
     },
     {
       "post": {
-        "firstname": "",
-        "lastname": "sasqsq",
-        "email": "",
-        "password": ""
+        "firstname": "Marny",
+        "lastname": "Channing",
+        "email": "kygeqi@mailinator.com",
+        "password": "Pa$$w0rd!"
       },
       "id": 2
     }

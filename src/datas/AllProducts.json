@@ -4,8 +4,8 @@
             "id": 1,
             "name": "Oleato Golden Foam™ Cold Brew",
             "img": "https://globalassets.starbucks.com/assets/3DB27F5E792C48E9B867A443AA648D26.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Oleato™",
+            "category":"drinks",
+            "subcategory": "oleato",
             "sizes": [
                 {
                     "size": "Tall",
@@ -31,10 +31,10 @@
         },
         {
             "id": 2,
-            "name": "Oleato™ Caffé Latte with Oatmilk",
+            "name": "oleato Caffé Latte with Oatmilk",
             "img": "https://globalassets.starbucks.com/assets/DE8D790FE9984AE191D8CDF33B07DB94.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Oleato™",
+            "category":"drinks",
+            "subcategory": "oleato",
             "sizes": [
                 {
                     "size": "Short",
@@ -60,10 +60,10 @@
         },
         {
             "id": 3,
-            "name": "Oleato™ Iced Shaken Espresso with Oatmilk and Toffeenut",
+            "name": "oleato Iced Shaken Espresso with Oatmilk and Toffeenut",
             "img": "https://globalassets.starbucks.com/assets/61CB5ABF139D4177BED6BDAD064EC660.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Oleato™",
+            "category":"drinks",
+            "subcategory": "oleato",
             "sizes": [
                 {
                     "size": "Tall",
@@ -86,8 +86,8 @@
             "id": 4,
             "name": "Caffè Americano",
             "img": "https://globalassets.starbucks.com/assets/f12bc8af498d45ed92c5d6f1dac64062.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Coffees",
+            "category":"drinks",
+            "subcategory": "hot-coffees",
             "type": "Americanos",
             "sizes": [
                 {
@@ -116,8 +116,8 @@
             "id": 5,
             "name": "Veranda Blend®",
             "img": "https://globalassets.starbucks.com/assets/f12bc8af498d45ed92c5d6f1dac64062.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Coffees",
+            "category":"drinks",
+            "subcategory": "hot-coffees",
             "type": "Brewed Coffees",
             "sizes": [
                 {
@@ -146,8 +146,8 @@
             "id": 6,
             "name": "Featured Medium Roast - Pike Place® Roast",
             "img": "https://globalassets.starbucks.com/assets/51bf549cd8e9434da941fec33b820d39.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Coffees",
+            "category":"drinks",
+            "subcategory": "hot-coffees",
             "type": "Brewed Coffees",
             "sizes": [
                 {
@@ -176,8 +176,8 @@
             "id": 7,
             "name": "Featured Starbucks® Dark Roast Coffee",
             "img": "https://globalassets.starbucks.com/assets/51bf549cd8e9434da941fec33b820d39.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Coffees",
+            "category":"drinks",
+            "subcategory": "hot-coffees",
             "type": "Brewed Coffees",
             "sizes": [
                 {
@@ -206,8 +206,8 @@
             "id": 8,
             "name": "Decaf Pike Place® Roast",
             "img": "https://globalassets.starbucks.com/assets/51bf549cd8e9434da941fec33b820d39.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Coffees",
+            "category":"drinks",
+            "subcategory": "hot-coffees",
             "type": "Brewed Coffees",
             "sizes": [
                 {
@@ -236,8 +236,8 @@
             "id": 9,
             "name": "Ethiopia Yirgacheffe® Chelelektu Clover® Starbucks Reserve®",
             "img": "https://globalassets.starbucks.com/assets/47b18a8fba28400cb6cdcab6037a6c4d.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Coffees",
+            "category":"drinks",
+            "subcategory": "hot-coffees",
             "type": "Brewed Coffees",
             "sizes": [
                 {
@@ -266,8 +266,8 @@
             "id": 10,
             "name": "Guatemala Lake Atitlán Clover® Starbucks Reserve®",
             "img": "https://globalassets.starbucks.com/assets/1007da79258346028bc166310d4650fe.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Coffees",
+            "category":"drinks",
+            "subcategory": "hot-coffees",
             "type": "Brewed Coffees",
             "sizes": [
                 {
@@ -296,8 +296,8 @@
             "id": 11,
             "name": "Galápagos La Tortuga Clover® Starbucks Reserve®",
             "img": "https://globalassets.starbucks.com/assets/951aeba7f6ea4511a76f166730f6be18.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Coffees",
+            "category":"drinks",
+            "subcategory": "hot-coffees",
             "type": "Brewed Coffees",
             "sizes": [
                 {
@@ -326,8 +326,8 @@
             "id": 12,
             "name": "Clover® Starbucks Reserve® Costa Rica Naranjo",
             "img": "https://globalassets.starbucks.com/assets/48f8877dfbc841dfa2cdec27508786fa.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Coffees",
+            "category":"drinks",
+            "subcategory": "hot-coffees",
             "type": "Brewed Coffees",
             "sizes": [
                 {
@@ -356,8 +356,8 @@
             "id": 13,
             "name": "Caffè Misto",
             "img": "https://globalassets.starbucks.com/assets/d668acbc691b47249548a3eeac449916.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Coffees",
+            "category":"drinks",
+            "subcategory": "hot-coffees",
             "type": "Brewed Coffees",
             "sizes": [
                 {
@@ -386,8 +386,8 @@
             "id": 14,
             "name": "Cappuccino",
             "img": "https://globalassets.starbucks.com/assets/5c515339667943ce84dc56effdf5fc1b.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Coffees",
+            "category":"drinks",
+            "subcategory": "hot-coffees",
             "type": "Cappuccinos",
             "sizes": [
                 {
@@ -416,8 +416,8 @@
             "id": 15,
             "name": "Espresso",
             "img": "https://globalassets.starbucks.com/assets/ec519dd5642c41629194192cce582135.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Coffees",
+            "category":"drinks",
+            "subcategory": "hot-coffees",
             "type": "Espresso Shots",
             "sizes": [
                 {
@@ -446,8 +446,8 @@
             "id": 16,
             "name": "Espresso Con Panna",
             "img": "https://globalassets.starbucks.com/assets/e9330b18ae524e69bdcbe97460d6f5bb.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Coffees",
+            "category":"drinks",
+            "subcategory": "hot-coffees",
             "type": "Espresso Shots",
             "sizes": [
                 {
@@ -476,8 +476,8 @@
             "id": 17,
             "name": "Flat White",
             "img": "https://globalassets.starbucks.com/assets/fedee22e49724cd09fbcc7ee2e567377.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Coffees",
+            "category":"drinks",
+            "subcategory": "hot-coffees",
             "type": "Flat Whites",
             "sizes": [
                 {
@@ -506,8 +506,8 @@
             "id": 18,
             "name": "Honey Almondmilk Flat White",
             "img": "https://globalassets.starbucks.com/assets/77801559b72b469583f4d484adc1bfa7.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Coffees",
+            "category":"drinks",
+            "subcategory": "hot-coffees",
             "type": "Flat Whites",
             "sizes": [
                 {
@@ -534,10 +534,10 @@
         },
         {
             "id": 19,
-            "name": "Oleato™ Caffé Latte with Oatmilk",
+            "name": "oleato Caffé Latte with Oatmilk",
             "img": "https://globalassets.starbucks.com/assets/DE8D790FE9984AE191D8CDF33B07DB94.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Coffees",
+            "category":"drinks",
+            "subcategory": "hot-coffees",
             "type": "Lattes",
             "sizes": [
                 {
@@ -566,8 +566,8 @@
             "id": 20,
             "name": "Pistachio Latte",
             "img": "https://globalassets.starbucks.com/assets/7b7b3f0c3b36442cbbd88b0d86a56088.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Coffees",
+            "category":"drinks",
+            "subcategory": "hot-coffees",
             "type": "Lattes",
             "sizes": [
                 {
@@ -596,8 +596,8 @@
             "id": 21,
             "name": "Caffè Latte",
             "img": "https://globalassets.starbucks.com/assets/b635f407bbcd49e7b8dd9119ce33f76e.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Coffees",
+            "category":"drinks",
+            "subcategory": "hot-coffees",
             "type": "Lattes",
             "sizes": [
                 {
@@ -626,8 +626,8 @@
             "id": 22,
             "name": "Cinnamon Dolce Latte",
             "img": "https://globalassets.starbucks.com/assets/284e1571faa748f2889d0b566b71d578.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Coffees",
+            "category":"drinks",
+            "subcategory": "hot-coffees",
             "type": "Lattes",
             "sizes": [
                 {
@@ -656,8 +656,8 @@
             "id": 23,
             "name": "Starbucks Reserve® Latte",
             "img": "https://globalassets.starbucks.com/assets/55083489399e435e81cf41d899051a5a.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Coffees",
+            "category":"drinks",
+            "subcategory": "hot-coffees",
             "type": "Lattes",
             "sizes": [
                 {
@@ -686,8 +686,8 @@
             "id": 24,
             "name": "Starbucks Reserve® Hazelnut Bianco Latte",
             "img": "https://globalassets.starbucks.com/assets/049d23aac19047f4b3a40532cc24b510.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Coffees",
+            "category":"drinks",
+            "subcategory": "hot-coffees",
             "type": "Lattes",
             "sizes": [
                 {
@@ -716,8 +716,8 @@
             "id": 25,
             "name": "Starbucks® Blonde Vanilla Latte",
             "img": "https://globalassets.starbucks.com/assets/b635f407bbcd49e7b8dd9119ce33f76e.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Coffees",
+            "category":"drinks",
+            "subcategory": "hot-coffees",
             "type": "Lattes",
             "sizes": [
                 {
@@ -746,8 +746,8 @@
             "id": 26,
             "name": "Caramel Macchiato",
             "img": "https://globalassets.starbucks.com/assets/58db701349cb48738069e8c912e2b3ac.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Coffees",
+            "category":"drinks",
+            "subcategory": "hot-coffees",
             "type": "Macchiatos",
             "sizes": [
                 {
@@ -776,8 +776,8 @@
             "id": 27,
             "name": "Espresso Macchiato",
             "img": "https://globalassets.starbucks.com/assets/26495f2a8b644fe8960dd74e1891b7b7.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Coffees",
+            "category":"drinks",
+            "subcategory": "hot-coffees",
             "type": "Macchiatos",
             "sizes": [
                 {
@@ -806,8 +806,8 @@
             "id": 28,
             "name": "Caffè Mocha",
             "img": "https://globalassets.starbucks.com/assets/915736da018842e788147f7eab73db73.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Coffees",
+            "category":"drinks",
+            "subcategory": "hot-coffees",
             "type": "Mochas",
             "sizes": [
                 {
@@ -836,8 +836,8 @@
             "id": 29,
             "name": "Starbucks Reserve® Dark Chocolate Mocha",
             "img": "https://globalassets.starbucks.com/assets/ce6342b5aeea4607a0e866057e3b5a4c.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Coffees",
+            "category":"drinks",
+            "subcategory": "hot-coffees",
             "type": "Mochas",
             "sizes": [
                 {
@@ -866,8 +866,8 @@
             "id": 30,
             "name": "White Chocolate Mocha",
             "img": "https://globalassets.starbucks.com/assets/3eab25199e994b689fa5c047fc31f217.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Coffees",
+            "category":"drinks",
+            "subcategory": "hot-coffees",
             "type": "Mochas",
             "sizes": [
                 {
@@ -896,8 +896,8 @@
             "id": 31,
             "name": "Chai Tea Latte",
             "img": "https://globalassets.starbucks.com/assets/2d52f16a22fb40ff898be1815ecc952e.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Teas",
+            "category":"drinks",
+            "subcategory": "hot-teas",
             "type": "Chai Teas",
             "sizes": [
                 {
@@ -926,8 +926,8 @@
             "id": 32,
             "name": "Chai Tea",
             "img": "https://globalassets.starbucks.com/assets/49bf4333e9d048498a59a5a2b958165f.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Teas",
+            "category":"drinks",
+            "subcategory": "hot-teas",
             "type": "Chai Teas",
             "sizes": [
                 {
@@ -956,8 +956,8 @@
             "id": 33,
             "name": "Earl Grey Tea",
             "img": "https://globalassets.starbucks.com/assets/6f780d5d392542c6b9b1a4412881cecc.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Teas",
+            "category":"drinks",
+            "subcategory": "hot-teas",
             "type": "Black Teas",
             "sizes": [
                 {
@@ -986,8 +986,8 @@
             "id": 34,
             "name": "Teavana® London Fog Tea Latte",
             "img": "https://globalassets.starbucks.com/assets/180da7ecb6fa4d2686babe5619fa7b84.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Teas",
+            "category":"drinks",
+            "subcategory": "hot-teas",
             "type": "Black Teas",
             "sizes": [
                 {
@@ -1016,8 +1016,8 @@
             "id": 35,
             "name": "Royal English Breakfast Tea",
             "img": "https://globalassets.starbucks.com/assets/e3554d07d1394ee79cfad80a383ba163.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Teas",
+            "category":"drinks",
+            "subcategory": "hot-teas",
             "type": "Black Teas",
             "sizes": [
                 {
@@ -1046,8 +1046,8 @@
             "id": 36,
             "name": "Royal English Breakfast Tea Latte",
             "img": "https://globalassets.starbucks.com/assets/919eb07194f44a0b842c0260c3a286d8.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Teas",
+            "category":"drinks",
+            "subcategory": "hot-teas",
             "type": "Black Teas",
             "sizes": [
                 {
@@ -1076,8 +1076,8 @@
             "id": 37,
             "name": "Emperor’s Clouds & Mist®",
             "img": "https://globalassets.starbucks.com/assets/1a84d455abd84ac3b356c6523fce9ac8.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Teas",
+            "category":"drinks",
+            "subcategory": "hot-teas",
             "type": "Green Teas",
             "sizes": [
                 {
@@ -1106,8 +1106,8 @@
             "id": 38,
             "name": "Matcha Tea Latte",
             "img": "https://globalassets.starbucks.com/assets/8b1b6d808cca4787afd2b30cf8dd5676.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Teas",
+            "category":"drinks",
+            "subcategory": "hot-teas",
             "type": "Green Teas",
             "sizes": [
                 {
@@ -1136,8 +1136,8 @@
             "id": 39,
             "name": "Honey Citrus Mint Tea",
             "img": "https://globalassets.starbucks.com/assets/a5e64777b3cc412e9239b8a37328cb37.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Teas",
+            "category":"drinks",
+            "subcategory": "hot-teas",
             "type": "Green Teas",
             "sizes": [
                 {
@@ -1166,8 +1166,8 @@
             "id": 40,
             "name": "Jade Citrus Mint® Brewed Tea",
             "img": "https://globalassets.starbucks.com/assets/6a59c09bb55c42f8a6a970e73c22caeb.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Teas",
+            "category":"drinks",
+            "subcategory": "hot-teas",
             "type": "Green Teas",
             "sizes": [
                 {
@@ -1196,8 +1196,8 @@
             "id": 41,
             "name": "Mint Majesty®",
             "img": "https://globalassets.starbucks.com/assets/cf7469c84a444e4f9a341f8023558c77.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Teas",
+            "category":"drinks",
+            "subcategory": "hot-teas",
             "type": "Herbal Teas",
             "sizes": [
                 {
@@ -1226,8 +1226,8 @@
             "id": 43,
             "name": "Peach Tranquility®",
             "img": "https://globalassets.starbucks.com/assets/cf7469c84a444e4f9a341f8023558c77.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
-            "subcategory": "Hot Teas",
+            "category":"drinks",
+            "subcategory": "hot-teas",
             "type": "Herbal Teas",
             "sizes": [
                 {
@@ -1256,7 +1256,7 @@
             "id": 44,
             "name": "Hot Chocolate",
             "img": "https://globalassets.starbucks.com/assets/677d276173ec4bc192c2b9a21776339f.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Hot Drinks",
             "type": "Hot Chocolates",
             "sizes": [
@@ -1291,7 +1291,7 @@
             "id": 45,
             "name": "White Hot Chocolate",
             "img": "https://globalassets.starbucks.com/assets/6b385ad21e7245788eb2d2754ab6f823.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Hot Drinks",
             "type": "Hot Chocolates",
             "sizes": [
@@ -1326,7 +1326,7 @@
             "id": 46,
             "name": "Caramel Apple Spice",
             "img": "https://globalassets.starbucks.com/assets/39bab62a29214270b6b30eb838e2c5a6.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Hot Drinks",
             "type": "Juice",
             "sizes": [
@@ -1361,7 +1361,7 @@
             "id": 47,
             "name": "Steamed Apple Juice",
             "img": "https://globalassets.starbucks.com/assets/a9e551eb323e4f0a93cf91b165916950.jpg?impolicy=1by1_tight_288",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Hot Drinks",
             "type": "Juice",
             "sizes": [
@@ -1396,7 +1396,7 @@
             "id": 47,
             "name": "Pistachio Crème",
             "img": "https://globalassets.starbucks.com/assets/428c45b7bd33426698e67ad9ac1272dd.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Hot Drinks",
             "type": "Steamers",
             "sizes": [
@@ -1431,7 +1431,7 @@
             "id": 48,
             "name": "Steamed Milk",
             "img": "https://globalassets.starbucks.com/assets/8b656cabb99344269543833b7e787bbd.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Hot Drinks",
             "type": "Steamers",
             "sizes": [
@@ -1466,7 +1466,7 @@
             "id": 49,
             "name": "Vanilla Crème",
             "img": "https://globalassets.starbucks.com/assets/3f61a806f6ff4bc38e2e5fc0d0eef97c.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Hot Drinks",
             "type": "Steamers",
             "sizes": [
@@ -1501,7 +1501,7 @@
             "id": 50,
             "name": "Pistachio Frappuccino® Blended Beverage",
             "img": "https://globalassets.starbucks.com/assets/01092efc144c4e2394a279807d2781ed.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Frappuccino® Blended Beverages",
             "type": "Coffee Frappuccino®",
             "sizes": [
@@ -1526,7 +1526,7 @@
             "id": 51,
             "name": "Mocha Cookie Crumble Frappuccino®",
             "img": "https://globalassets.starbucks.com/assets/1fd99578d31f4072a52892398d8f1fa8.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Frappuccino® Blended Beverages",
             "type": "Coffee Frappuccino®",
             "sizes": [
@@ -1551,7 +1551,7 @@
             "id": 52,
             "name": "Caramel Ribbon Crunch Frappuccino® Blended Beverage",
             "img": "https://globalassets.starbucks.com/assets/22f8e0db2106468d953bce434f5328a3.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Frappuccino® Blended Beverages",
             "type": "Coffee Frappuccino®",
             "sizes": [
@@ -1576,7 +1576,7 @@
             "id": 53,
             "name": "Espresso Frappuccino® Blended Beverage",
             "img": "https://globalassets.starbucks.com/assets/c297d3528849499f81322d561575d94b.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Frappuccino® Blended Beverages",
             "type": "Coffee Frappuccino®",
             "sizes": [
@@ -1601,7 +1601,7 @@
             "id": 54,
             "name": "Caffè Vanilla Frappuccino® Blended Beverage",
             "img": "https://globalassets.starbucks.com/assets/b8f963bfe65b4117af17d316e6bc3bc8.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Frappuccino® Blended Beverages",
             "type": "Coffee Frappuccino®",
             "sizes": [
@@ -1626,7 +1626,7 @@
             "id": 55,
             "name": "Caramel Frappuccino® Blended Beverage",
             "img": "https://globalassets.starbucks.com/assets/b8f963bfe65b4117af17d316e6bc3bc8.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Frappuccino® Blended Beverages",
             "type": "Coffee Frappuccino®",
             "sizes": [
@@ -1651,7 +1651,7 @@
             "id": 56,
             "name": "Coffee Frappuccino® Blended Beverage",
             "img": "https://globalassets.starbucks.com/assets/72b70f11fe984732af4d8e539f53ca2d.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Frappuccino® Blended Beverages",
             "type": "Coffee Frappuccino®",
             "sizes": [
@@ -1676,7 +1676,7 @@
             "id": 57,
             "name": "Mocha Frappuccino® Blended Beverage",
             "img": "https://globalassets.starbucks.com/assets/70198375bb0a442f8792437b5d1df972.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Frappuccino® Blended Beverages",
             "type": "Coffee Frappuccino®",
             "sizes": [
@@ -1701,7 +1701,7 @@
             "id": 58,
             "name": "Java Chip Frappuccino® Blended Beverage",
             "img": "https://globalassets.starbucks.com/assets/fe3131c518c34593938b32a67486fda0.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Frappuccino® Blended Beverages",
             "type": "Coffee Frappuccino®",
             "sizes": [
@@ -1726,7 +1726,7 @@
             "id": 59,
             "name": "White Chocolate Mocha Frappuccino® Blended Beverage",
             "img": "https://globalassets.starbucks.com/assets/b9a003ae34ae48d0a6d1e1799b95d623.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Frappuccino® Blended Beverages",
             "type": "Coffee Frappuccino®",
             "sizes": [
@@ -1751,7 +1751,7 @@
             "id": 60,
             "name": "Pistachio Crème Frappuccino® Blended Beverage",
             "img": "https://globalassets.starbucks.com/assets/cec63bbbe7d24264a11d03f7b01d1d84.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Frappuccino® Blended Beverages",
             "type": "Creme Frappuccino®",
             "sizes": [
@@ -1776,7 +1776,7 @@
             "id": 61,
             "name": "Chocolate Cookie Crumble Crème Frappuccino®",
             "img": "https://globalassets.starbucks.com/assets/e7b786fdbe544d43a5d471f9ef512047.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Frappuccino® Blended Beverages",
             "type": "Creme Frappuccino®",
             "sizes": [
@@ -1801,7 +1801,7 @@
             "id": 62,
             "name": "Caramel Ribbon Crunch Crème Frappuccino® Blended Beverage",
             "img": "https://globalassets.starbucks.com/assets/cacdf793d82648329cfec7df33148da4.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Frappuccino® Blended Beverages",
             "type": "Creme Frappuccino®",
             "sizes": [
@@ -1826,7 +1826,7 @@
             "id": 63,
             "name": "Strawberry Crème Frappuccino® Blended Beverage",
             "img": "https://globalassets.starbucks.com/assets/abd48a12ed76482790f2079db420f2c4.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Frappuccino® Blended Beverages",
             "type": "Creme Frappuccino®",
             "sizes": [
@@ -1851,7 +1851,7 @@
             "id": 64,
             "name": "Chai Crème Frappuccino®",
             "img": "https://globalassets.starbucks.com/assets/f373281862494ecd8bc62db2e8868e75.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Frappuccino® Blended Beverages",
             "type": "Creme Frappuccino®",
             "sizes": [
@@ -1876,7 +1876,7 @@
             "id": 65,
             "name": "Double Chocolaty Chip Crème Frappuccino® Blended Beverage",
             "img": "https://globalassets.starbucks.com/assets/e2ffa95d3c364d94b5dba029263bbf0e.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Frappuccino® Blended Beverages",
             "type": "Creme Frappuccino®",
             "sizes": [
@@ -1901,7 +1901,7 @@
             "id": 66,
             "name": "Matcha Crème Frappuccino® Blended Beverage",
             "img": "https://globalassets.starbucks.com/assets/17f8efcbdbc8476e9992503d4ee19f95.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Frappuccino® Blended Beverages",
             "type": "Creme Frappuccino®",
             "sizes": [
@@ -1926,7 +1926,7 @@
             "id": 67,
             "name": "Vanilla Bean Crème Frappuccino® Blended Crème",
             "img": "https://globalassets.starbucks.com/assets/b7b496402286415c9c2be5bc1b4d7c3e.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Frappuccino® Blended Beverages",
             "type": "Creme Frappuccino®",
             "sizes": [
@@ -1951,7 +1951,7 @@
             "id": 68,
             "name": "White Chocolate Crème Frappuccino® Blended Beverage",
             "img": "https://globalassets.starbucks.com/assets/2a903458538a45ca9746ae460080b76b.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Frappuccino® Blended Beverages",
             "type": "Creme Frappuccino®",
             "sizes": [
@@ -1976,7 +1976,7 @@
             "id": 69,
             "name": "White Chocolate Crème Frappuccino® Blended Beverage",
             "img": "https://globalassets.starbucks.com/assets/2a903458538a45ca9746ae460080b76b.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Frappuccino® Blended Beverages",
             "type": "Creme Frappuccino®",
             "sizes": [
@@ -2428,9 +2428,9 @@
         },
         {
             "id": 85,
-            "name": "Oleato™ Iced Shaken Espresso with Oatmilk and Toffeenut",
+            "name": "oleato Iced Shaken Espresso with Oatmilk and Toffeenut",
             "img": "https://globalassets.starbucks.com/assets/61CB5ABF139D4177BED6BDAD064EC660.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Iced Shaken Espresso",
             "sizes": [
                 {
@@ -2454,7 +2454,7 @@
             "id": 86,
             "name": "Iced Toasted Vanilla Oatmilk Shaken Espresso",
             "img": "https://globalassets.starbucks.com/assets/9a51e00fff1c42e8acb62fcbfcef8838.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Iced Shaken Espresso",
             "sizes": [
                 {
@@ -2478,7 +2478,7 @@
             "id": 86,
             "name": "Iced Brown Sugar Oatmilk Shaken Espresso",
             "img": "https://globalassets.starbucks.com/assets/5bfe4972905a400c97717ce4176ebe92.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Iced Shaken Espresso",
             "sizes": [
                 {
@@ -2502,7 +2502,7 @@
             "id": 87,
             "name": "Iced Chocolate Almondmilk Shaken Espresso",
             "img": "https://globalassets.starbucks.com/assets/b0f45bda44464780a601e51cb404f780.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Iced Shaken Espresso",
             "sizes": [
                 {
@@ -2526,7 +2526,7 @@
             "id": 88,
             "name": "Iced Shaken Espresso",
             "img": "https://globalassets.starbucks.com/assets/ce4ff582482446d08d56ab49fe54bc40.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Iced Shaken Espresso",
             "sizes": [
                 {
@@ -2550,7 +2550,7 @@
             "id": 89,
             "name": "Iced Flat White",
             "img": "https://globalassets.starbucks.com/assets/a1d7c679325f4c32ab5441f051aa0767.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Iced Flat Whites",
             "sizes": [
                 {
@@ -2574,7 +2574,7 @@
             "id": 90,
             "name": "Iced Honey Almondmilk Flat White",
             "img": "https://globalassets.starbucks.com/assets/a651497f08314edd9a213950c2865e8c.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Iced Flat Whites",
             "sizes": [
                 {
@@ -2598,7 +2598,7 @@
             "id": 91,
             "name": "Iced Pistachio Latte",
             "img": "https://globalassets.starbucks.com/assets/a3eacb2a29f1439f917d7dae230b2771.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Iced Lattes",
             "sizes": [
                 {
@@ -2622,7 +2622,7 @@
             "id": 91,
             "name": "Starbucks Reserve® Iced Latte",
             "img": "https://globalassets.starbucks.com/assets/5d1720adf5e7485a9d36d508b7b1be06.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Iced Lattes",
             "sizes": [
                 {
@@ -2646,7 +2646,7 @@
             "id": 92,
             "name": "Starbucks Reserve® Iced Hazelnut Bianco Latte",
             "img": "https://globalassets.starbucks.com/assets/196709c5870249dd9c2408469dd70df1.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Iced Lattes",
             "sizes": [
                 {
@@ -2670,7 +2670,7 @@
             "id": 93,
             "name": "Iced Caffè Latte",
             "img": "https://globalassets.starbucks.com/assets/f4fd128c834643fa8c74f4ae9f579013.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Iced Lattes",
             "sizes": [
                 {
@@ -2694,7 +2694,7 @@
             "id": 94,
             "name": "Iced Cinnamon Dolce Latte",
             "img": "https://globalassets.starbucks.com/assets/b5ee0554cdd64959a86530922cea7991.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Iced Lattes",
             "sizes": [
                 {
@@ -2718,7 +2718,7 @@
             "id": 95,
             "name": "Iced Starbucks® Blonde Vanilla Latte",
             "img": "https://globalassets.starbucks.com/assets/1b317a079984402895bb5cf4d2894940.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Iced Lattes",
             "sizes": [
                 {
@@ -2742,7 +2742,7 @@
             "id": 96,
             "name": "Iced Caramel Macchiato",
             "img": "https://globalassets.starbucks.com/assets/363835b1db024636adeb4089ebb96291.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Iced Macchiatos",
             "sizes": [
                 {
@@ -2766,7 +2766,7 @@
             "id": 97,
             "name": "Iced White Chocolate Mocha",
             "img": "https://globalassets.starbucks.com/assets/b80d893714854b5c946ee6c7f0d369d7.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Iced Machas",
             "sizes": [
                 {
@@ -2790,7 +2790,7 @@
             "id": 98,
             "name": "Iced Caffè Mocha",
             "img": "https://globalassets.starbucks.com/assets/0360378c6e774cc3a38d870fc75d5462.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Iced Machas",
             "sizes": [
                 {
@@ -2814,7 +2814,7 @@
             "id": 99,
             "name": "Starbucks Reserve® Iced Dark Chocolate Mocha",
             "img": "https://globalassets.starbucks.com/assets/a3368f72724f4b70950ac39fb23b5836.jpg?impolicy=1by1_wide_topcrop_630",
-            "category": "Drinks",
+            "category":"drinks",
             "subcategory": "Iced Machas",
             "sizes": [
                 {

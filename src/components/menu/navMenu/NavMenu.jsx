@@ -16,7 +16,7 @@ function NavMenu() {
     return (
         <nav className='navMenu'>
             <ul className='d-flex container'>
-                <li><NavLink to="/menu" ref={linkRef} className="allProduct">All products</NavLink></li>
+                <li><NavLink to="/menu/all" ref={linkRef} className="allProduct">All products</NavLink></li>
                 <li><NavLink to="/menu/featured">Featured</NavLink></li>
                 <li><NavLink to="/menu/previous">Previous Orders</NavLink></li>
                 <li><NavLink to="/menu/favorites">Favorite Products</NavLink></li>

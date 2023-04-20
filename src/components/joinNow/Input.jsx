@@ -1,8 +1,14 @@
 import axios from 'axios'
 import { nanoid } from 'nanoid'
 import React, {useState } from 'react'
+import { useDispatch, useSelector } from 'react-redux';
+import { updateField } from '../../redux/controls/post';
 
 function Input({ label, type, err, alert, show, hide, x, emailAlert, name }) {
+    const  auth  = useSelector((store) => store.auth);
+    const  post  = useSelector((store) => store.post);
+const dispatch = useDispatch();
+
     const [value, setValue] = useState("")
     const [status, setStatus] = useState(false)
     const [blur, setBlur] = useState(true)
@@ -11,24 +17,15 @@ function Input({ label, type, err, alert, show, hide, x, emailAlert, name }) {
         setStatus(true)
         setBlur(false)
     }
-    const [post, setPost] = useState({
-        firstname: "",
-        lastname: "",
-        email: "",
-        password: ""
-    })
+
+
     const changeValue = (e) => {
         setValue(e.target.value)
-        setPost({ ...post, [e.target.name]: e.target.value })
+        dispatch(updateField({ field: e.target.name, value: e.target.value }));
     }
   
 
-// const addUsers=()=>{
-//     axios.post(`http://localhost:5001/users/`,{post})
-//     .then(response=>console.log(response))
-//     .catch(err=>console.log(err))
 
-// }   addUsers funksiyasini create butonuna vermek lazimdir
     return (
         <div className='input'>
             <label style={{ color: value.length > 0 || blur ? "green" : "red" }} className={status || value.length > 0 ? 'inputOut' : "inputIn"} htmlFor="">{label}</label>

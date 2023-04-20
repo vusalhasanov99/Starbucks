@@ -3,7 +3,6 @@ import { Route, Routes } from 'react-router-dom'
 import MainLayout from './components/mainLayout/MainLayout'
 import Menu from './components/menu/Menu'
 import Main from './components/main/Main'
-import Food from './components/menu/allProducts/Food'
 import AllProducts from './components/menu/allProducts/AllProducts'
 import Feautured from './components/menu/featured/Feautured'
 import PreviousOrders from './components/menu/previousOrders/PreviousOrders'
@@ -13,8 +12,7 @@ import GiftCards from './components/giftCards/GiftCards'
 import SignIn from './components/signIn/SignIn'
 import JoinNow from './components/joinNow/JoinNow'
 import FindStore from './components/findStore/FindStore'
-import MenuAllDatas from './components/menu/allProducts/MenuAllDatas'
-import Drinks from './components/menu/allProducts/Oleato'
+import MenuAllDatas from './components/menu/menuAllDatas/MenuAllDatas'
 import Featured from './components/giftCards/featured/Featured'
 import ErrorPage from './components/errorPage/ErrorPage'
 
@@ -24,19 +22,15 @@ function Routing() {
       <Route path='/' element={<MainLayout />}>
         <Route index element={<Main />} />
         <Route path='menu' element={<Menu />} >
-          <Route path='' element={<AllProducts />} >
-            <Route index element={<MenuAllDatas />} />
-            <Route path='drinks/oleato' element={<Drinks />} />
-
+          <Route path='all' element={<AllProducts />}>
+            {/* <Route index element={<MenuAllDatas />} /> */}
+            <Route  path=':category/:subcategory' element={<MenuAllDatas />} />
           </Route>
           <Route path='featured' element={<Feautured />} />
           <Route path='previous' element={<PreviousOrders />} />
           <Route path='favorites' element={<FavoriteProducts />} />
-          <Route path='drinks/oleato' element={<Food />} />
         </Route>
-
         <Route path='rewards' element={<Rewards />} >
-
         </Route>
         <Route path='gift' element={<GiftCards />} />
         <Route path='gift/category/:category' element={<Featured />} />
@@ -44,7 +38,6 @@ function Routing() {
         <Route path='account/signin' element={<SignIn />} />
         <Route path='account/joinnow' element={<JoinNow />} />
         <Route path='*' element={<ErrorPage />} />
-
       </Route>
     </Routes>
   )

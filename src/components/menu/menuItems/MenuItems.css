@@ -1,6 +1,7 @@
 .menuItems{
     padding-top: 20px;
     margin-left: 130px;
+    width: 150px;
 }
 .menuItems ul span{
     font-size: 18px;
