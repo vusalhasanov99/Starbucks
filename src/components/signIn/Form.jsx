@@ -5,7 +5,6 @@ import { updateField } from '../../redux/controls/user';
 
 function Form({ label, type, err, show, hide, x, name,forv }) {
     const user = useSelector((store) => store.user);
-    console.log(user);
     const dispatch = useDispatch();
     const [value, setValue] = useState("")
     const [status, setStatus] = useState(false)

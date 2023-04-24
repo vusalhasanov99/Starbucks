@@ -7,12 +7,10 @@ import SignIn from '../signIn/SignIn';
 import JoinNow from '../joinNow/JoinNow';
 
 function MainLayout() {
-  const logIn = useSelector((state) => state.login.value);
-
+  const user = useSelector((state) => state.auth);
   return (
     <div>
-
-      {logIn ? <>
+      {user.user? <>
         <Header />
         <Outlet />
         <Footer />
