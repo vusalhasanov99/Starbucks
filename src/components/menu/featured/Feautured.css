@@ -11,10 +11,12 @@
     font-size: 50px;
     letter-spacing: 2px;
 }
+
 .feautured .d-flex {
- flex-wrap: wrap;
- justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+
 .feauturedProduct {
     display: flex;
     align-items: center;
@@ -61,22 +63,30 @@
 .productContent button:hover {
     background-color: rgba(0, 0, 0, .1);
 }
-.feautured .text{
+
+.feautured .text {
     display: flex;
     justify-content: center;
     padding-top: 60px;
     line-height: 1.8;
 }
+
 @media (max-width: 992px) {
-  .feautured strong{
-    font-size: 30px;
-  }
-}
-@media (max-width: 768px) {
-    .feautured strong{
-      font-size: 30px;
+    .feautured strong {
+        font-size: 30px;
     }
-   .feauturedProduct{
-    width: 100%;
-   }
-  }
+}
+
+@media (max-width: 768px) {
+    .feautured strong {
+        font-size: 30px;
+    }
+
+    .feauturedProduct {
+        width: 100%;
+    }
+
+    .featured {
+        padding: 20px;
+    }
+}

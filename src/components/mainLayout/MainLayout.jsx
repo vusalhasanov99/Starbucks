@@ -5,6 +5,7 @@ import { Outlet } from 'react-router-dom'
 import { useSelector } from 'react-redux';
 import SignIn from '../signIn/SignIn';
 import JoinNow from '../joinNow/JoinNow';
+import { Helmet } from 'react-helmet';
 
 function MainLayout() {
   const user = useSelector((state) => state.auth);
@@ -15,6 +16,9 @@ function MainLayout() {
         <Outlet />
         <Footer />
       </> : <SignIn /> || <JoinNow />}
+      <Helmet>
+        <title>Starbucks Coffee Company</title>
+      </Helmet>
     </div>
   )
 }

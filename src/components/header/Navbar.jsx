@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import './Header.css'
 import { NavLink, useLocation } from 'react-router-dom'
-import { setLogIn } from '../../redux/controls/login';
 import { useDispatch } from 'react-redux';
 import { logout } from '../../redux/controls/auth';
 

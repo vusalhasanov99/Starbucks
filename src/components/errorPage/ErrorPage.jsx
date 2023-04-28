@@ -1,6 +1,7 @@
 import React from 'react'
 import './ErrorPage.css'
 import coffe from '../../imgs/coffe.png'
+import { Helmet } from "react-helmet";
 function ErrorPage() {
     return (
         <div className='errorPage'>
@@ -17,6 +18,9 @@ function ErrorPage() {
                     <button>Return to home page</button>
                 </div>
             </div>
+            <Helmet>
+                <title>Error page</title>
+            </Helmet>
         </div>
     )
 }

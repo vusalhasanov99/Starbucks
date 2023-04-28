@@ -167,9 +167,12 @@ accent-color:#006241;
 }
 
 @media (max-width:768px){
+    .signIn h1{
+        font-size: 20px;
+    }
     .sign{
         box-shadow: none;
-        width: 450px;
+        width: 350px;
     }
     .inp input{
         padding: 15px;

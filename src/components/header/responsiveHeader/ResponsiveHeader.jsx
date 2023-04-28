@@ -32,7 +32,7 @@ function ResponsiveHeader() {
                 <div className="menuAllProducts" style={{ transform: menuTransform ? "translate(-12%)" : "translate(200%)" }}>
                     <ul>
                         <li className='MenuBack' onClick={()=>setMenuTransform(false)}><svg aria-hidden="true" className="valign-middle sb-hamburgerNav-pushViewButton-left-arrow" focusable="false" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" style={{width: "24px", height: "24px", overflow: "visible", fill: "currentcolor"}}><path d="M15.098 5.78c.292-.293.292-.767 0-1.06-.293-.293-.768-.293-1.06 0L7.62 11.137c-.293.293-.293.768 0 1.06l6.52 6.52c.292.293.767.293 1.06 0 .293-.293.293-.768 0-1.06l-5.99-5.99L15.1 5.78z"></path></svg><span>MENU</span> </li>
-                        <li onClick={() => setTransform(false)}><Link to="/menu">All products</Link></li>
+                        <li onClick={() => setTransform(false)}><Link to="/menu/all">All products</Link></li>
                         <li onClick={() => setTransform(false)}><Link to="/menu/featured">Featured</Link></li>
                         <li onClick={() => setTransform(false)}><Link to="/menu/previous">Previous</Link></li>
                         <li onClick={() => setTransform(false)}><Link to="/menu/favorites">Favorites</Link></li>

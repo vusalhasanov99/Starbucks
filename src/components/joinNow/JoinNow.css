@@ -58,8 +58,6 @@ padding: 40px 0;
     color: rgba(0, 0, 0, .87);
     padding: 10px 0;
 }
-
-
 .input{
     position: relative;
     width: 100%;
@@ -99,7 +97,7 @@ padding: 40px 0;
 @media (max-width:768px){
   .formBg{
     box-shadow: none;
-    width: 600px;
+    width: 450px;
   }
   .strbcks{
     display: none;
@@ -107,5 +105,13 @@ padding: 40px 0;
   .joinNow .create{
     text-align: start;
   }
-
+  .joinNow .create> h1{
+    font-size: 20px;
+    margin: auto;
+    width: 70%;
+  }
+  .joinNow .create>p{
+    width: 70%;
+    margin: auto;
+  }
 }

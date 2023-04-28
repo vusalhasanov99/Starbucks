@@ -15,7 +15,7 @@
     text-transform: uppercase;
 }
 .giftCards .allGiftCards .allGiftCardsHeader button {
-    margin-right: 30px;
+    margin-right: 10px;
     border: 0;
     font-size: 17px;
     color: #18754A;
@@ -47,10 +47,10 @@
 .allGiftCardsSlider li[aria-hidden="true"] img {
     transform: translate(0) !important;
 }
+.gotAGiftCardItem >*{
+}
 @media (max-width:768px) {
-    .react-multi-carousel-list ul{
-        padding: 0 30px;
-    }
+ 
     .giftCards .allGiftCards .allGiftCardsHeader h1{
         padding: 0 30px;
 

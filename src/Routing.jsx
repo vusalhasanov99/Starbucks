@@ -15,6 +15,7 @@ import FindStore from './components/findStore/FindStore'
 import MenuAllDatas from './components/menu/menuAllDatas/MenuAllDatas'
 import Featured from './components/giftCards/featured/Featured'
 import ErrorPage from './components/errorPage/ErrorPage'
+import Product from './components/menu/menuAllDatas/Product'
 
 function Routing() {
   return (
@@ -24,12 +25,15 @@ function Routing() {
         <Route path='menu' element={<Menu />} >
           <Route path='all' element={<AllProducts />}>
             {/* <Route index element={<MenuAllDatas />} /> */}
-            <Route  path=':category/:subcategory' element={<MenuAllDatas />} />
+            <Route path=':category/:subcategory' element={<MenuAllDatas />} />
           </Route>
+
           <Route path='featured' element={<Feautured />} />
           <Route path='previous' element={<PreviousOrders />} />
           <Route path='favorites' element={<FavoriteProducts />} />
         </Route>
+        <Route path='menu/all/:category/:subcategory/:product' element={<Product />} />
+
         <Route path='rewards' element={<Rewards />} >
         </Route>
         <Route path='gift' element={<GiftCards />} />
