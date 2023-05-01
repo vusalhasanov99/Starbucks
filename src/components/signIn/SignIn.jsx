@@ -8,7 +8,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import JoinNow from '../joinNow/JoinNow'
 import { getAuth, signInWithEmailAndPassword } from 'firebase/auth'
 import { login } from '../../redux/controls/auth'
-import {  useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 function SignIn() {
     const refEmail = useRef()
@@ -36,18 +36,18 @@ function SignIn() {
     const handleSubmit = (e) => {
         e.preventDefault();
         signInWithEmailAndPassword(auth, refEmail.current.value, refPass.current.value)
-        .then((userCredential) => {
-          // Signed in 
-          const user = userCredential.user;
-          dispatch(login(user));
-          navigate("/")
-          // ...
-        })
-        .catch((error) => {
-          const errorCode = error.code;
-          const errorMessage = error.message;
-          console.log(errorMessage);
-        });
+            .then((userCredential) => {
+                // Signed in 
+                const user = userCredential.user;
+                dispatch(login(user));
+                navigate("/")
+                // ...
+            })
+            .catch((error) => {
+                const errorCode = error.code;
+                const errorMessage = error.message;
+                console.log(errorMessage);
+            });
     }
     return (
         <>
@@ -63,13 +63,13 @@ function SignIn() {
                             <input type="checkbox" id='check' />
                             <label htmlFor='check'>Keep me signed in.</label>
                         </div>
-                        <button onClick={() => setShowModal(!showModal)}>Details</button>
+                        <button type='button' onClick={() => setShowModal(!showModal)}>Details</button>
                         <Detail showModal={showModal} setShowModal={setShowModal} />
                     </div>
                     <div className="forgot">
-                        <button onClick={() => setShowUsernameModal(!showUsernameModal)}>Forgot your username?</button>
+                        <button type='button' onClick={() => setShowUsernameModal(!showUsernameModal)}>Forgot your username?</button>
                         <UsernameModal showUsernameModal={showUsernameModal} setShowUsernameModal={setShowUsernameModal} />
-                        <button>Forgot your password?</button>
+                        <button type='button'>Forgot your password?</button>
                         <button onClick={() => setRegister(true)}>Register</button>
                     </div>
                     <div className="signInBtn">

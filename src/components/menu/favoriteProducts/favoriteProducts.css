@@ -35,3 +35,8 @@
     font-size: 16.5px;
     margin-right: 20px;
 }
+@media (max-width: 768px) {
+    .favoriteProducts {
+        padding-left: 20px;
+    }
+}

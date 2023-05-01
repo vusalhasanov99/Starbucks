@@ -112,8 +112,8 @@ accent-color:#006241;
     line-height: 1.5;
     color: rgba(0,0,0,.87);
     position: absolute;
-    left: 60px;
-    top: 260px;
+    left: 270px;
+    top: 150px;
     background-color: white;
 }
 .sign .detail p{
@@ -138,8 +138,8 @@ accent-color:#006241;
     line-height: 1.5;
     color: rgba(0,0,0,.87);
     position: absolute;
-    left: 250px;
-    top: 280px;
+    left: 350px;
+    top: 200px;
     background-color: white;
 }
 .sign .usernameModal p{

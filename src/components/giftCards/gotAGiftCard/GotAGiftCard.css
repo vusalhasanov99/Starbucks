@@ -1,61 +1,64 @@
-.gotAGiftCard{
+.gotAGiftCard {
     display: flex;
     align-self: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     background-color: #d4e9e2;
-    padding: 30px 0px 30px 130px;
+    padding: 20px;
 }
-.gotAGiftCardItem{
+
+.gotAGiftCardItem {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 20px;
 }
-.gotAGiftCard .gotAGiftCardItem h1{
+
+.gotAGiftCardItem .btns {
+    display: flex;
+    gap: 20px;
+}
+
+.gotAGiftCard .gotAGiftCardItem h1 {
     font-size: 25px;
     font-weight: 600;
 }
-.gotAGiftCard .gotAGiftCardItem p{
+
+.gotAGiftCard .gotAGiftCardItem p {
     color: #00000094;
     font-size: 19px;
     font-weight: 500;
 }
-.gotAGiftCard  .gotAGiftCardItem .addReload{
+
+.gotAGiftCard .gotAGiftCardItem .addReload {
     font-size: 17px;
 }
-.gotAGiftCard  .gotAGiftCardItem .checkBalance{
-   color: white;
+
+.gotAGiftCard .gotAGiftCardItem .checkBalance {
+    color: white;
     background-color: black;
     font-size: 17px;
 }
-.gotAGiftCard  .gotAGiftCardItem .addReload:hover{
-    background-color: rgba(0,0,0,.1);
-}
-.gotAGiftCard  .gotAGiftCardItem .checkBalance:hover{
-    background-color:rgba(0,0,0,.7);
+
+.gotAGiftCard .gotAGiftCardItem .addReload:hover {
+    background-color: rgba(0, 0, 0, .1);
 }
 
-.gotAGiftCard a{
+.gotAGiftCard .gotAGiftCardItem .checkBalance:hover {
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.gotAGiftCard a {
     color: #006241;
     font-weight: 600;
 }
-.gotAGiftCard .cardTerm{
-    margin-right: 30px;
-}
-.gotAGiftCard a svg{
-    margin-bottom: -6px;
-}
-@media (max-width:992px) {
-    .gotAGiftCard .cardTerm{
-        display: flex;
-       align-items: end;
-        }
-}
-@media (max-width:768px) {
-  .gotAGiftCard{
-    padding: 0 30px;
-  }
-  .gotAGiftCardItem{
-    display: block;
-  }
 
+.gotAGiftCard .cardTerm {
+    display: flex;
+    align-items: center;
+   margin: 10px 0;
+}
+
+.gotAGiftCard a svg {
+    margin-bottom: -6px;
 }

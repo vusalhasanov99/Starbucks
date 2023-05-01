@@ -6,7 +6,6 @@ import { logout } from '../../redux/controls/auth';
 
 
 function Navbar() {
-    const [transform, setTransform] = useState(false)
     const location = useLocation()
     const dispatch = useDispatch()
     

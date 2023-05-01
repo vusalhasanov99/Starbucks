@@ -26,7 +26,9 @@ function AllGiftCards() {
             breakpoint: { max: 464, min: 0 },
             items: 1
         }
+    
     };
+   console.log(Object.values(responsive).map(item=>item.items)[0])
     return (
         <div className='allGiftCards'>
             <div className="allGiftCardsSlider">
@@ -34,7 +36,7 @@ function AllGiftCards() {
                     <div key={nanoid()} className='p'>
                         <div className="allGiftCardsHeader">
                             <h1>{item.category}</h1>
-                            <Link to={"category/"+item.category.toLocaleLowerCase()}> <button >{item.see}</button></Link>
+                            <Link to={"category/" + item.category.toLocaleLowerCase()}> <button >{item.see}</button></Link>
                         </div>
                         <Carousel responsive={responsive}>
                             {item.cards.map(item =>
@@ -44,11 +46,11 @@ function AllGiftCards() {
                         </Carousel>
                     </div>)}
                 <GotAGiftCard />
-                {data.slice(1).map(item =>
+                {data.slice(1).map((item,i) =>
                     <div key={nanoid()} className='p' >
                         <div className="allGiftCardsHeader">
                             <h1>{item.category}</h1>
-                            <Link to={"category/"+item.category.toLocaleLowerCase()}> <button >{item.see}</button></Link>
+                            {item.cards.length >4 && <Link to={"category/" + item.category.toLocaleLowerCase()}> <button >{item.see}</button></Link>}
                         </div>
                         <Carousel responsive={responsive}>
                             {item.cards.map(item =>

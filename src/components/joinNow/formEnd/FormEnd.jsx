@@ -1,7 +1,7 @@
 import React from 'react';
 import './FormEnd.css';
 import { useSelector } from 'react-redux';
-import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth';
+import { getAuth, reload } from 'firebase/auth';
 import { register } from '../../../auth/firebase';
 
 
@@ -14,6 +14,7 @@ function FormEnd() {
     const handleSubmit = (e) => {
         e.preventDefault();
         register(post.email, post.password)
+        window.location.reload();
     };
     return (
         <div className='formEnd'>
