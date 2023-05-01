@@ -6,11 +6,13 @@
   text-decoration: none;
   font-family: 'SoDo Sans';
 }
-#root{
+
+#root {
   overflow-x: hidden;
 }
+
 .container {
-  width: 95%;
+  width: 93.5%;
   margin: auto;
 }
 
@@ -25,6 +27,21 @@
 .jc {
   justify-content: center;
 }
-.jb{
+
+.jb {
   justify-content: space-between;
+}
+.loadingCoffe{
+  position: fixed;
+  background-color: #FFFFFF;
+  height: 100vh;
+  width: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loadingCoffe svg{
+  width: 80px;
 }
