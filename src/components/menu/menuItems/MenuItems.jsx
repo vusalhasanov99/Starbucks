@@ -30,7 +30,7 @@ function MenuItems() {
                 <li><ul><span>Merchandise</span>
                     <li><NavLink to="merchandise/cold-cups">Cold Cups</NavLink></li>
                     <li><NavLink to="merchandise/tumblers">Tumblers</NavLink></li>
-                    <li><NavLink to="/merchandise/mugs">Mugs</NavLink></li>
+                    <li><NavLink to="merchandise/mugs">Mugs</NavLink></li>
                     <li><NavLink to="merchandise/water-bottles">Water Bottles</NavLink></li>
                     <li><NavLink to="merchandise/other">Other</NavLink></li></ul>
                 </li>

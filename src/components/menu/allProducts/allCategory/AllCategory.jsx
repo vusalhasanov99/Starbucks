@@ -1,5 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
+import { NavLink } from 'react-router-dom';
 
 function AllCategory() {
     // const datas = [
@@ -146,12 +147,14 @@ function AllCategory() {
                             <hr />
                             <div className="items">
                                 {item.products.map(item => (
-                                    <div className="item">
-                                        <div className="img">
-                                            <img src={item.img} alt="" />
+                                    <NavLink to={item.link}>
+                                        <div className="item">
+                                            <div className="img">
+                                                <img src={item.img} alt="" />
+                                            </div>
+                                            <h3>{item.name}</h3>
                                         </div>
-                                        <h3>{item.name}</h3>
-                                    </div>
+                                    </NavLink>
                                 ))}
                             </div>
                         </div>
