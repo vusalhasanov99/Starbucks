@@ -124,7 +124,7 @@ function AllCategory() {
         setLoading(true)
         setTimeout(() => {
             axios
-                .get(("https://raw.githubusercontent.com/vusalhasanov99/Starbucks/master/src/datas/BestDevelopersProduct2.json"))
+                .get(("https://raw.githubusercontent.com/vusalhasanov99/Starbucks/master/src/datas/MenuAllDatas.json"))
                 .then(response => {
                     setData(response.data.allCategory)
                     setLoading(false)
