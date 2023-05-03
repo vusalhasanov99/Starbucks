@@ -9,7 +9,7 @@ function Product() {
   const [data, setData] = useState([])
   useEffect(() => {
     axios
-      .get(("https://raw.githubusercontent.com/vusalhasanov99/Starbucks/master/src/datas/BestDevelopersProduct2.json"))
+      .get(("https://raw.githubusercontent.com/vusalhasanov99/Starbucks/master/src/datas/MenuAllDatas.json"))
       .then(response => setData(response.data.products));
   }, []);
   const findProduct = data.find(item => item.name.split(" ").join("-").toLowerCase() === product)

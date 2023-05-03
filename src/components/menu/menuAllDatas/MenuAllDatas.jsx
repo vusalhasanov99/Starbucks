@@ -4,6 +4,8 @@ import React, { useEffect, useState } from 'react'
 import { nanoid } from 'nanoid';
 import { useParams } from 'react-router-dom';
 import Card from './Card';
+import ProgressBar from '../../progressBar/ProgressBar';
+
 
 function MenuAllDatas() {
     const [data, setData] = useState([])
@@ -11,7 +13,7 @@ function MenuAllDatas() {
     useEffect(() => {
         setTimeout(() => {
             axios
-                .get(("https://raw.githubusercontent.com/vusalhasanov99/Starbucks/master/src/datas/BestDevelopersProduct2.json"))
+                .get(("https://raw.githubusercontent.com/vusalhasanov99/Starbucks/master/src/datas/MenuAllDatas.json"))
                 .then(response => {
                     setData(response.data.products)
                 }
@@ -24,6 +26,7 @@ function MenuAllDatas() {
     return (
 
                 <div className='menuAll'>
+                    <ProgressBar/>
                     <h1>{subCategory}</h1>
                     <section className='menuAllDatas'>
                         {types.includes(undefined) && (

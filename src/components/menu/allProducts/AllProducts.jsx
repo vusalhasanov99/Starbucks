@@ -8,6 +8,7 @@ function AllProducts() {
   const location = useLocation()
   return (
     <div className='d-flex allProducts'>
+      
       <MenuItems />
       {location.pathname == "/menu/all" ?
         <AllCategory /> :
