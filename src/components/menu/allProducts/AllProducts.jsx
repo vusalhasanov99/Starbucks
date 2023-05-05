@@ -10,7 +10,7 @@ function AllProducts() {
     <div className='d-flex allProducts'>
       
       <MenuItems />
-      {location.pathname == "/menu/all" ?
+      {location.pathname == "/menu" ?
         <AllCategory /> :
         <Outlet />
       }

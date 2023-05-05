@@ -12,7 +12,7 @@ function Menu() {
       <div className="d-flex">
         <Outlet />
       </div>
-      {location.pathname == "/menu" && modal ?location.pathname == "/menu" && <Basket modal={modal} setModal={setModal} /> :location.pathname == "/menu" && <Modal setModal={setModal} />}
+      { modal ? <Basket modal={modal} setModal={setModal} /> : <Modal setModal={setModal} />}
 
     </div>
   )

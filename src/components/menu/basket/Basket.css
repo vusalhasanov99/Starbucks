@@ -30,4 +30,13 @@ html:has(.modal){
 
 .basketIcon {
     cursor: pointer;
+    position: relative;
+    width: 40px;
+}
+.total{
+    position: absolute;
+    color: white;
+ right: 12px;
+ top: 12px;
+ font-weight: 600;
 }

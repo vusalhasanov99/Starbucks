@@ -13,7 +13,7 @@ function Navbar() {
         <>
             <nav className='navbar' style={{ display: location.pathname == "/account/signin" || location.pathname == "/account/joinnow" ? "none" : "" }}>
                 <ul>
-                    <li><NavLink to="/menu/all">MENU</NavLink></li>
+                    <li><NavLink to="/menu">MENU</NavLink></li>
                     <li><NavLink to="/rewards">REWARDS</NavLink></li>
                     <li><NavLink to="/gift">GIFT CARDS</NavLink></li>
                 </ul>

@@ -69,4 +69,7 @@
     .rewardsGetFavoritesItem{
         flex-direction: column;
     }
+    .rewardsGetFavorites .btns button{
+        font-size: 18px; 
+    }
 }

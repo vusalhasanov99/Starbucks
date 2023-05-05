@@ -5,6 +5,14 @@
 .menuIcon{
     cursor: pointer;
 }
+.menuHeaderBg{
+    background-color: rgba(0, 0, 0, 0.253);
+    height: 100vh;
+    position: fixed;
+    width: 90000px;
+    left: 0;
+    z-index: 999;
+}
 .menuHeader{
     position: absolute;
     transform: translate(-80%,.4%);

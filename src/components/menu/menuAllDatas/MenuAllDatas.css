@@ -42,6 +42,7 @@
     justify-content: space-evenly;
     align-items: center;
     height: 350px;
+    padding: 20px 0;
 }
 
 .productImg {
@@ -54,17 +55,75 @@
     border-radius: 50%;
 }
 
-.product h1 {
-    color: white;
+.product .productDetail {
+    position: relative;
+
 }
+
+.product .productDetail h1 {
+    color: white;
+    width: 70%;
+}
+
+.product .productDetail>p {
+    color: hsla(0, 0%, 100%, .7);
+    font-size: 25px;
+    padding: 20px 0;
+
+}
+
+.product .productDetail .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #faf6ee;
+    border: 2px solid #cba258;
+    border-radius: 12px;
+    padding: 10px;
+    width: 70%;
+    position: absolute;
+    top: -20px;
+    left: -36px;
+}
+
+.info1 {
+    width: 0;
+    height: 0;
+    border-top: 20px solid #faf6ee;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    position: absolute;
+    top: 93px;
+    left: 180px;
+
+}
+
+.product .productDetail .info p {
+    padding: 10px;
+    font-size: 14px;
+    border-right: 1px solid rgba(0, 0, 0, 0.164);
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 
 .sizes {
     display: flex;
     position: relative;
+    padding: 30px;
+    gap: 10px;
+}
+
+.sizeElement {
+    cursor: pointer;
 }
 
 .sizes .sizeImg {
-    width: 100px;
     height: 130px;
     display: flex;
     align-items: center;
@@ -84,18 +143,84 @@
 }
 
 .borderSize {
-    border: 2px solid red;
+    border: 2px solid #006241;
     border-radius: 50%;
     background-color: #D4E9E2;
     width: 60px;
     height: 60px;
-
     position: absolute;
-
     z-index: -1;
 }
 
 .sizeCustomization {
     display: flex;
     justify-content: space-around;
+}
+
+.productLink {
+    background-color: #F9F9F9;
+    padding: 20px 0;
+    margin: 5px 0;
+    position: sticky;
+    top: 0;
+}
+
+.productLink span {
+    color: #000000ec;
+    font-weight: 600;
+
+}
+
+.productLink a {
+    color: #000000d0;
+    font-weight: 500;
+}
+.basketOrder{
+    position: fixed;
+bottom: 100px;
+    width:100%;
+   background-color: red;
+
+}
+.addOrder{
+    position: absolute;
+top: -70px;
+right: 50px;
+}
+.addOrder button{
+    color: white;
+    background-color: #00754a;
+    font-size: 22px;
+    padding: 15px;
+    border: 0;
+}
+
+.addedProduct{
+    color: white;
+    background-color: #00754a;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    bottom: 100px;
+    width: 100%;
+    padding: 40px;
+}
+@media (max-width: 1100px) {
+    .product{
+        flex-direction: column;
+        height: 100%;
+    }
+    .productDetail{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .options{
+        justify-content: center;
+    }
+   
 }

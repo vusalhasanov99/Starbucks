@@ -23,7 +23,7 @@ function Routing() {
       <Route path='/' element={<MainLayout />}>
         <Route index element={<Main />} />
         <Route path='menu' element={<Menu />} >
-          <Route path='all' element={<AllProducts />}>
+          <Route path='/menu' element={<AllProducts />}>
             {/* <Route index element={<MenuAllDatas />} /> */}
             <Route path=':category/:subcategory' element={<MenuAllDatas />} />
           </Route>
