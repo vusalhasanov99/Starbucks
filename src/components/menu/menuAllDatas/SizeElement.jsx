@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 
-function SizeElement({ size, capacity, id ,selectProduct, i,selected }) {
+function SizeElement({ size, capacity, selectProduct, i,selected }) {
 
     return (
         <div className='sizeElement'   onClick={()=>selectProduct(i)} >

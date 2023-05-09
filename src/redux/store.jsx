@@ -4,7 +4,8 @@ import auth from'./controls/auth'
 import post from'./controls/post'
 import user from'./controls/user'
 import loading from'./controls/loading'
-import totalReducer from'./controls/basketTotal'
+import basket from'./controls/basketTotal'
+
 export const store = configureStore({
   reducer: {
     product: productReducer,
@@ -12,6 +13,6 @@ export const store = configureStore({
     post,
     user,
     loading,
-    totalReducer
+    basket
   },
 });

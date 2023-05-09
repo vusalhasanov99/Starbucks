@@ -1,8 +1,11 @@
 import React from 'react'
 import './Basket.css'
 import { Link } from 'react-router-dom'
+import { useSelector } from 'react-redux';
 function Basket({ setModal}) {
-    const total = localStorage.getItem('total');
+  // butun productlarin sayi
+  const products = useSelector(state => state.basket.products);
+  const total = products.reduce((count, product) => count + product.quantity, 0);
 
 
     return (

@@ -1,17 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Modal.css'
-import { Link } from 'react-router-dom'
+import AddedProducts from '../basket/addedProducts/AddedProducts'
 function Modal({setModal}) {
+  const [basketShow,setBasketShow] =useState(false)
   return (
-    <div className='modal'>
+    <>
+    <div className='modal' style={{display:basketShow&&"none"}}>
       <div className="modalContent">
         <p>Please select a store before continuing to the cart.</p>
         <div className="modalContentBtns">
             <button className='cancel' onClick={()=>setModal(true)}>Cancel</button>
-          <Link to="/findstore">  <button className='selectStore'>Select Store</button></Link>
+         <button className='selectStore' onClick={()=>setBasketShow(true)}>Open Store</button>
         </div>
       </div>
     </div>
+    {basketShow&& <AddedProducts setBasketShow={setBasketShow} setModal={setModal}/>}
+    </>
   )
 }
 

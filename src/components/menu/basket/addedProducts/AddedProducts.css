@@ -1,0 +1,109 @@
+.basketAddedProductsBg{
+    background-color: rgba(0, 0, 0, 0.38);
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    z-index: 99999;
+}
+.basketAddedProducts {
+    background-color: white;
+    height: 100vh;
+    width: 450px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 99999999;
+}
+
+.basketAddedProducts .x {
+    text-align: end;
+    margin: 10px;
+}
+
+.basketAddedProducts .x i {
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid rgb(192, 180, 180);
+    border-radius: 50%;
+    transition: 0.5s;
+    color: white;
+    background-color: red;
+}
+
+.basketAddedProducts .x i:hover {
+    scale: 1.1;
+}
+
+.basketAddedProduct {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.basketAddedProduct>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.basketAddedProduct .img{
+    width: 25%;
+}
+.basketAddedProduct .img img {
+    width: 50%;
+    height: 50%;
+}
+
+.basketAddedProducts .basketTotal {
+    text-align: end;
+    padding: 10px;
+}
+
+.clearAll button {
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.clearAll button:hover {
+    background-color: red;
+    color: white;
+    scale: 1.05;
+}
+
+.basketAddedProduct button {
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.basketAddedProduct button:nth-child(1) {
+    background-color: yellow;
+}
+
+.basketAddedProduct button:nth-child(3) {
+    background-color: green;
+}
+
+.basketAddedProduct button:nth-child(4) {
+    background-color: red;
+}
+
+.basketAddedProduct .quantity {
+    display: flex;
+
+}
+
+@media (max-width:768px) {
+    .basketAddedProducts{width: 300px;}
+    .basketAddedProduct{
+        font-size: 14px;
+    }
+ 
+    .basketAddedProduct button{
+        padding: 6px;
+    }
+}

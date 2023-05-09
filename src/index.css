@@ -35,6 +35,15 @@
 .jb {
   justify-content: space-between;
 }
+.je {
+  justify-content: space-evenly;
+}
+.ja {
+  justify-content: space-around;
+}
+.p5{
+  padding: 20px;
+}
 .loadingCoffe{
   position: fixed;
   background-color: #FFFFFF;

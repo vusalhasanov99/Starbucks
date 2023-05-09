@@ -33,3 +33,15 @@ background-color: rgba(0, 0, 0, 0.38);
     font-size: 16px;
 
 }
+@media (max-width:992px) {
+    .modalContent {
+        width: 50%;
+        padding: 20px;
+    }
+}
+@media (max-width:520px) {
+    .modalContent {
+        width: 70%;
+
+    }
+}
