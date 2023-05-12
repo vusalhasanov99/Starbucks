@@ -1,16 +1,14 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-// Sepet dilimi oluşturma
 const basketSlice = createSlice({
   name: 'basket',
   initialState: {
-    products: [] 
+     products: JSON.parse(localStorage.getItem('basket')) || []
   },
   reducers: {
     addToBasket: (state, action) => {
       const { id,name,img } = action.payload;
       const existingProduct = state.products.find(product => product.id === id);
-      
       if (existingProduct) {
         existingProduct.quantity += 1;
       } else {

@@ -8,11 +8,11 @@ function MenuItems() {
             <ul>
                 <li><ul><span>Drinks</span>
                     <li><NavLink to="drinks/oleato">Oleato™</NavLink></li>
-                    <li><NavLink  to="drinks/hot-coffees">Hot Coffees</NavLink></li>
-                    <li><NavLink  to="drinks/hot-teas">Hot Teas</NavLink></li>
-                    <li><NavLink  to="drinks/hot-drinks">Hot Drinks</NavLink></li>
-                    <li><NavLink  to="drinks/frappuccino-blended-beverages">Frappuccino® Blended Beverages</NavLink></li>
-                    <li><NavLink  to="drinks/cold-coffees">Cold Coffees</NavLink></li>
+                    <li><NavLink to="drinks/hot-coffees">Hot Coffees</NavLink></li>
+                    <li><NavLink to="drinks/hot-teas">Hot Teas</NavLink></li>
+                    <li><NavLink to="drinks/hot-drinks">Hot Drinks</NavLink></li>
+                    <li><NavLink to="drinks/frappuccino-blended-beverages">Frappuccino® Blended Beverages</NavLink></li>
+                    <li><NavLink to="drinks/cold-coffees">Cold Coffees</NavLink></li>
                     <li><NavLink to="drinks/iced-teas">Iced Teas</NavLink></li>
                     <li><NavLink to="drinks/cold-drinks">Cold Drinks</NavLink></li></ul>
                 </li>

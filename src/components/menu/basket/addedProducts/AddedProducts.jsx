@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import AddedProduct from './AddedProduct';
 import { removeAllProducts } from '../../../../redux/controls/basketTotal';
 
-function AddedProducts({ setBasketShow, setModal }) {
+function AddedProducts({ setBasketShow, setModal,findProduct }) {
     const dispatch = useDispatch();
     // productlar
     const basket = JSON.parse(localStorage.getItem('basket'))
@@ -24,9 +24,13 @@ function AddedProducts({ setBasketShow, setModal }) {
                     <div className='basketTotal'>Total Products : {total}</div>
                     <div className="clearAll" onClick={() => dispatch(removeAllProducts())}> <button>Clear All</button> </div>
                 </div>
-                {total == 0 ? <h4 className='d-flex ac jc p5'>The basket is empty</h4> : basket?.map((item, i) => (
-                    <AddedProduct {...item} i={i} />
-                ))}
+                {total == 0 ? <h4 className='d-flex ac jc p5'>The basket is empty</h4> :
+
+                    <div className="basketProducts">
+                        {basket?.map((item, i) => (
+                            <AddedProduct key={i} {...item} i={i} findProduct={findProduct}/>
+                        ))}
+                    </div>}
             </div>
         </>
     )

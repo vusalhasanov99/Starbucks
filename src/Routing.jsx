@@ -24,7 +24,6 @@ function Routing() {
         <Route index element={<Main />} />
         <Route path='menu' element={<Menu />} >
           <Route path='/menu' element={<AllProducts />}>
-            {/* <Route index element={<MenuAllDatas />} /> */}
             <Route path=':category/:subcategory' element={<MenuAllDatas />} />
           </Route>
 
@@ -32,7 +31,7 @@ function Routing() {
           <Route path='previous' element={<PreviousOrders />} />
           <Route path='favorites' element={<FavoriteProducts />} />
         </Route>
-        <Route path='menu/all/:category/:subcategory/:product' element={<Product />} />
+        <Route path='menu/:category/:subcategory/:product' element={<Product />} />
 
         <Route path='rewards' element={<Rewards />} >
         </Route>

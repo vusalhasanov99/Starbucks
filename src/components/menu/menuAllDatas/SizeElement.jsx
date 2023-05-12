@@ -9,7 +9,6 @@ function SizeElement({ size, capacity, selectProduct, i,selected }) {
             </div>
             {selected ==i&& <div className="borderSize"></div>}
             <h4>{size}</h4>
-            {/* <div>{calories}</div> */}
             <div>{capacity}</div>
         </div>
     )

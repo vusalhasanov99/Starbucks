@@ -5,7 +5,7 @@ function Card({ name, img, category, subcategory }) {
     const path = category + "/" + subcategory.split(" ").join("-") + "/" + name.split(" ").join("-")
     return (
         <div className='item'>
-            <Link to={`/menu/all/${path.toLowerCase()}`}>
+            <Link to={`/menu/a${path.toLowerCase()}`}>
                <div className="img">
                  <img src={img} alt={name} /></div>
                 <h4 className='text-lg'>{name}</h4>
