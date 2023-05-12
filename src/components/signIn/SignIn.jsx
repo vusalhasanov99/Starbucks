@@ -4,11 +4,13 @@ import Form from './Form'
 import { nanoid } from 'nanoid'
 import Detail from './Detail'
 import UsernameModal from './UsernameModal'
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import JoinNow from '../joinNow/JoinNow'
 import { getAuth, signInWithEmailAndPassword } from 'firebase/auth'
 import { login } from '../../redux/controls/auth'
 import { useNavigate } from 'react-router-dom'
+import SignInCorrectAlert from './signInAlert/SignInCorrectAlert'
+import SignInIncorrectAlert from './signInAlert/SignInIncorrectAlert'
 
 function SignIn() {
     const refEmail = useRef()
@@ -17,6 +19,8 @@ function SignIn() {
     const arr = [refEmail, refPass]
     const [showModal, setShowModal] = useState(false)
     const [showUsernameModal, setShowUsernameModal] = useState(false)
+    const [signInCorrectAlert, setSignInCorrectAlert] = useState(false) //Email/Password correct
+    const [signInIncorrectAlert, setSignInIncorrectAlert] = useState(false) //Email/Password incorrect 
     const dispatch = useDispatch();
     const auth = getAuth();
     let navigate = useNavigate();
@@ -37,22 +41,31 @@ function SignIn() {
         e.preventDefault();
         signInWithEmailAndPassword(auth, refEmail.current.value, refPass.current.value)
             .then((userCredential) => {
+                setSignInCorrectAlert(true)
                 // Signed in 
                 const user = userCredential.user;
-                dispatch(login(user));
-                navigate("/")
-                // ...
+                setTimeout(() => {
+                    dispatch(login(user));
+                    setSignInCorrectAlert(false)
+                    navigate("/")
+                }, 3000)
             })
             .catch((error) => {
                 const errorCode = error.code;
                 const errorMessage = error.message;
                 console.log(errorMessage);
+                setSignInIncorrectAlert(true)
+                setTimeout(() => {
+                    setSignInIncorrectAlert(false)
+                }, 3000)
             });
     }
     return (
         <>
             {register ? <JoinNow /> : <form className='signIn'>
                 <h1>Sign in or create an account</h1>
+                {signInCorrectAlert && <SignInCorrectAlert />}
+                {signInIncorrectAlert && <SignInIncorrectAlert />}
                 <div className="sign">
                     <p>* indicates required field</p>
                     {datas.map((item, i) => (
