@@ -56,9 +56,13 @@
 .basketAddedProduct .img{
     width: 25%;
 }
+.basketAddedProduct .img a {
+    width: 60%;
+}
 .basketAddedProduct .img a img {
     width: 100%;
     height: 50%;
+    border-radius: 50%;
 }
 
 .basketAddedProducts .basketTotal {

@@ -1,5 +1,5 @@
 .registerAlert {
     position: fixed;
-    top: 20%;
-    left: 43%;
+    top: 50%;
+    transform: translate(83px, -175px);
 }

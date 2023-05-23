@@ -37,7 +37,7 @@ function FormEnd() {
                 </div>
             </label>
             <h2>TERMS OF USE</h2>
-            {registerAlert&&<RegisterAlert/>}
+            {<RegisterAlert/>}
             <label htmlFor="check2">
                 <div>  <input id='check2' type="checkbox" /></div>
                 <div className='checkDiv'>
